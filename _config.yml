@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Abinash Pun"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Postdoctoral Researcher at NMSU | Physics Computing | Data Scientist"
   location         : "Fermilab National Lab"
-  employer         :
+  employer         : "New Mexico State University"
   #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=rCG7jo8AAAAJ&hl=en"
   email            : abi_pun@yahoo.com
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "https://twitter.com/abinashpun"
   vine             :
   weibo            :
   xing             :
