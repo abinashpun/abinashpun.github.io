@@ -11,7 +11,7 @@ title                    : "Home"
 title_separator          : "-"
 name                     : &name "Abinash Pun"
 description              : &description "Computational Physicst"
-url                      : https://abinashpun.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://abinashpun.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "abinashpun/abinashpun.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Abinash Pun"
-  avatar           :  "https://avatars.githubusercontent.com/u/19293798?s=40&v=4" #"profile1.png"
+  avatar           : "profile1.png"
   bio              : "Postdoctoral Researcher at NMSU | Physics Computing | Data Scientist"
   location         : "Fermilab National Lab"
   employer         : "New Mexico State University"
