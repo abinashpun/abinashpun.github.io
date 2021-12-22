@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Abinash Pun"
-  avatar           : "https://avatars.githubusercontent.com/u/19293798?s=40&v=4"   #"profile.png"
+  avatar           : "profile_abi.png"  #"https://avatars.githubusercontent.com/u/19293798?s=40&v=4"   #"profile.png"
   bio              : "Postdoctoral Researcher at NMSU | Physics Computing | Data Scientist"
   location         : "Fermilab National Lab"
   employer         : "New Mexico State University"
