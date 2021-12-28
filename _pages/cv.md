@@ -40,6 +40,7 @@ Skills
    * Sub-skill 2.3
 * Skill 3
 -->
+
 Publications
 ======
 <!-- 
@@ -47,6 +48,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 -->
+
 Talks
 ======
 <!-- 
@@ -54,6 +56,7 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 -->  
+
 Teaching
 ======
 <!-- 
@@ -61,6 +64,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 -->
+
 Service and leadership
 ======
  
