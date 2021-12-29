@@ -19,10 +19,11 @@ Education
 
 Research Experience
 ======
-* Developing the software and analysis framework for SpinQuest Experiment at Fermilab
+* Developing the software and analysis framework for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
-* Electro-Magnetic Calorimeter of sPHENIX
-* Jet-related Two Particle Correlations in small systems at PHENIX
+* Electro-Magnetic Calorimeter of sPHENIX experiment at RHIC (Brookhaven National Laboratory)
+* Jet-related Two Particle Correlations in small systems at PHENIX experiment at RHIC (Brookhaven National Laboratory)
+
 <!-- 
 * Summer 2015: Research Assistant
    * Github University
@@ -68,6 +69,7 @@ Talks
 Teaching 
 ======
 * Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701)
+
 <!-- 
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
