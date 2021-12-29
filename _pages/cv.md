@@ -70,12 +70,9 @@ Talks
   {% endfor %}</ul>
 -->  
 
-Honors and Awards
+Student Advising and Mentorship
 ======
-* Ranked among top 5% in my M. Sc. class, Tribhuvan Univ. 2012
-* Dean’s Merit Scholarship, Institute of Science and Technology, Tribhuvan Univ. 2011
-* Ranked 7th among +1000 test-takers in the qualifying examination of the M.Sc. program in Physics 2010
-* Dean’s Merit Scholarship, Tri-Chandra Multiple Campus, Tribhuvan Univ. 2006 - 2009
+* Dinupa Batugedara Mohottalalage (Graduate Student, NMSU): Single Track and Dimuon Reconstruction Efficiency
 
 
 Teaching 
@@ -102,6 +99,14 @@ Service and leadership
 ======
 * Co-ordinator, "Tracking and simulation" at SpinQuest Experiment (2019-present)
 * Co-ordinator, "Data management" at SpinQuest Experiment (2019-present)
-* Incharge of "Lunch with INPP seminar speaker-OU" (2018-2019)
-* President, Nepalese Student Association in OU (2018-2019)
-* Founding Vice President, Nepalese Student Association in OU (2017)
+* Manager, ["E1039-Collaboration"](https://github.com/E1039-Collaboration) GitHub (2019-present) 
+* Incharge, "Lunch with INPP seminar speaker-OU" (2018-2019)
+* President, "Nepalese Student Association in OU" (2018-2019)
+* Founding Vice-President, "Nepalese Student Association in OU" (2017)
+
+Honors and Awards
+======
+* Ranked among top 5% in my M. Sc. class, Tribhuvan Univ. 2012
+* Dean’s Merit Scholarship, Institute of Science and Technology, Tribhuvan Univ. 2011
+* Ranked 7th among +1000 test-takers in the qualifying examination of the M.Sc. program in Physics 2010
+* Dean’s Merit Scholarship, Tri-Chandra Multiple Campus, Tribhuvan Univ. 2006 - 2009
