@@ -19,7 +19,7 @@ Education
 
 Research Experience
 ======
-* Developing the software and analysis framework for SpinQuest Experiment at Fermi National Laboratory
+* Developing the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
 * Electro-Magnetic Calorimeter of sPHENIX experiment at RHIC (Brookhaven National Laboratory)
 * Jet-related Two Particle Correlations in small systems at PHENIX experiment at RHIC (Brookhaven National Laboratory)
@@ -36,8 +36,13 @@ Research Experience
    * Supervisor: Professor Hub
 -->
 
-Skills
+Software and Computation
 ======
+* Languages: C/C++, Python, LATEX, Bash, SQL
+* Tools: git, Jenkins, Linux, Doxygen, Docker, Singularity
+* HEP Packages: ROOT, GENFIT, GEANT, Fun4All, RooUnfold, UpROOT
+* Others: Grid computing, Computer Networking
+
 <!-- 
 * Skill 1
 * Skill 2
@@ -65,10 +70,17 @@ Talks
   {% endfor %}</ul>
 -->  
 
+Honors and Awards
+======
+* Ranked among top 5% in my M. Sc. class, Tribhuvan Univ. 2012
+* Dean’s Merit Scholarship, Institute of Science and Technology, Tribhuvan Univ. 2011
+* Ranked 7th among +1000 test-takers in the qualifying examination of the M.Sc. program in Physics 2010
+* Dean’s Merit Scholarship, Tri-Chandra Multiple Campus, Tribhuvan Univ. 2006 - 2009
+
 
 Teaching 
 ======
-* Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701)
+* Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
 
 <!-- 
   <ul>{% for post in site.teaching %}
@@ -88,9 +100,8 @@ Professional Memberships
 
 Service and leadership
 ======
-* Tracking and simulation co-ordinator at SpinQuest Collaboration (2019-present)
-* Data management co-ordinator at SpinQuest Experiment (2019-present)
+* Co-ordinator, "Tracking and simulation" at SpinQuest Experiment (2019-present)
+* Co-ordinator, "Data management" at SpinQuest Experiment (2019-present)
 * Incharge of "Lunch with INPP seminar speaker-OU" (2018-2019)
-* Jet-related Two Particle Correlations in small systems at PHENIX (2018)
 * President, Nepalese Student Association in OU (2018-2019)
 * Founding Vice President, Nepalese Student Association in OU (2017)
