@@ -16,12 +16,13 @@ Education
 * M.Sc. in Physics, Tribhuvan University, Nepal (2012)
 * B.Sc. in Physics, Tribhuvan University, Nepal (2009)
 
+
 Research Experience
 ======
-## Developing the software and analysis framework for SpinQuest Experiment at Fermilab
-## Data management for SpinQuest Experiment (Grid Computing)
-## Electro-Magnetic Calorimeter of sPHENIX
-## Jet-related Two Particle Correlations in small systems at PHENIX
+* Developing the software and analysis framework for SpinQuest Experiment at Fermilab
+* Data management for SpinQuest Experiment (Grid Computing)
+* Electro-Magnetic Calorimeter of sPHENIX
+* Jet-related Two Particle Correlations in small systems at PHENIX
 <!-- 
 * Summer 2015: Research Assistant
    * Github University
@@ -44,33 +45,44 @@ Skills
    * Sub-skill 2.3
 * Skill 3
 -->
-
+<!--
 Publications
 ======
+--->
 <!-- 
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 -->
-
+<!--
 Talks
 ======
+--->
 <!-- 
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 -->  
 
-<!--
-Teaching
-======
---->
 
+Teaching 
+======
+* Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701)
 <!-- 
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 -->
+
+Collaborations
+======
+* SpinQuest
+* PHENIX
+* sPHENIX
+
+Professional Memberships
+======
+* American Physical Society (APS)
 
 Service and leadership
 ======
