@@ -19,7 +19,7 @@ Education
 
 Research Experience
 ======
-* Developing the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
+* Development and maintenance of the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
 * Electro-Magnetic Calorimeter of sPHENIX experiment at RHIC (Brookhaven National Laboratory)
 * Jet-related Two Particle Correlations in small systems at PHENIX experiment at RHIC (Brookhaven National Laboratory)
@@ -39,8 +39,8 @@ Research Experience
 Software and Computation
 ======
 * Languages: C/C++, Python, LATEX, Bash, SQL
-* Tools: git, Jenkins, Linux, Doxygen, Docker, Singularity
-* HEP Packages: ROOT, GENFIT, GEANT, Fun4All, RooUnfold, UpROOT
+* Tools: Git, Linux, Docker, Singularity, Jenkins, Doxygen
+* HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, UpROOT
 * Others: Grid computing, Computer Networking
 
 <!-- 
@@ -99,7 +99,7 @@ Service and leadership
 ======
 * Co-ordinator, "Tracking and simulation" at SpinQuest Experiment (2019-present)
 * Co-ordinator, "Data management" at SpinQuest Experiment (2019-present)
-* Manager, ["E1039-Collaboration"](https://github.com/E1039-Collaboration) GitHub (2019-present) 
+* Manager, ["E1039-Collaboration GitHub"](https://github.com/E1039-Collaboration) (2019-present) 
 * Incharge, "Lunch with INPP seminar speaker-OU" (2018-2019)
 * President, "Nepalese Student Association in OU" (2018-2019)
 * Founding Vice-President, "Nepalese Student Association in OU" (2017)
