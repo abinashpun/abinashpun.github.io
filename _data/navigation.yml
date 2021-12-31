@@ -20,6 +20,8 @@ main:
     
   #- title: "Guide"
   #  url: /markdown/
+  #- title: "ML Projects"
+  #  url: /ml/
 
-  - title: "Personal"
-    url: /personal/
+  #- title: "Personal"
+  #  url: /personal/
