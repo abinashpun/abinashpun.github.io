@@ -39,7 +39,7 @@ Research Experience
 Software and Computation
 ======
 * Languages: C/C++, Python, LATEX, Bash, SQL
-* Tools: Git, Linux, Docker, Singularity, Jenkins, Doxygen
+* Tools: Git, Linux, Docker, Singularity, Doxygen
 * HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, UpROOT
 * Others: Grid computing, Computer Networking
 
@@ -73,7 +73,7 @@ Talks
 Student Advising and Mentorship
 ======
 * Dinupa Batugedara Mohottalalage (Graduate Student, NMSU): Single Track and Dimuon Reconstruction Efficiency
-
+* Forhad Hossain (Graduate Student, NMSU): Unfolding Study to Recover Asymmetry in Dimuon qT
 
 Teaching 
 ======
@@ -88,6 +88,7 @@ Teaching
 Collaborations
 ======
 * SpinQuest
+* SeaQuest
 * PHENIX
 * sPHENIX
 
