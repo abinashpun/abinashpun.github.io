@@ -38,10 +38,10 @@ Research Experience
 
 Software and Computation
 ======
-* Languages: C/C++, Python, LATEX, Bash, SQL
+* Languages: C/C++, Python, Fortran, Bash, SQL, Latex
 * Tools: Git, Linux, Docker, Singularity, Doxygen
 * HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, UpROOT
-* Others: Grid computing, Computer Networking
+* Others: Grid computing (high-throughput computing (HTC)), Computer Networking
 
 <!-- 
 * Skill 1
