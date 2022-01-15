@@ -73,7 +73,7 @@ Talks
 Student Advising and Mentorship
 ======
 * Dinupa Batugedara Mohottalalage (Graduate Student, NMSU): Single Track and Dimuon Reconstruction Efficiency
-* Forhad Hossain (Graduate Student, NMSU): Unfolding Study to Recover Asymmetry in Dimuon qT
+* Forhad Hossain (Graduate Student, NMSU): Unfolding Study to Recover Azimuthal Asymmetry in Dimuon
 
 Teaching 
 ======
