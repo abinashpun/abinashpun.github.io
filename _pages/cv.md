@@ -44,6 +44,12 @@ Software and Computation
 * HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, UpROOT
 * Others: Grid computing (high-throughput computing (HTC)), Computer Networking
 
+
+Trainings and Workshops
+======
+* High Throughput Computing (HTC): OSG (Open Science Grid) Virtual School 2021
+* Computational and Data Science: CODAS-HEP 2022 (Princeton University)
+
 <!-- 
 * Skill 1
 * Skill 2
