@@ -41,7 +41,7 @@ Software and Computation
 ======
 * Languages: C/C++, Python, Fortran, Bash, SQL, Latex
 * Tools: Git, Linux, Docker, Singularity, Doxygen
-* HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, UpROOT
+* HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, Scikit-HEP
 * Others: Grid computing (high-throughput computing (HTC)), Computer Networking
 
 
