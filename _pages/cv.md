@@ -21,9 +21,9 @@ Research Experience
 ======
 * Development and maintenance of the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
-* Angular decay coefficients of J/Psi mesons from p+Fe collisions at $\sqrt{s}$ = 15.065 GeV
+* Measurement Angular decay coefficients of J/Psi mesons from p+Fe collisions at $\sqrt{s}$ = 15.065 GeV
 * Electro-Magnetic Calorimeter of sPHENIX experiment at RHIC (Brookhaven National Laboratory): Design Study with Simulation
-* Jet-related Two Particle Correlations Study in small systems at PHENIX experiment at RHIC (Brookhaven National Laboratory)
+* Jet-related Two Particle Correlations Measurement in small systems at PHENIX experiment at RHIC (Brookhaven National Laboratory)
 
 <!-- 
 * Summer 2015: Research Assistant
