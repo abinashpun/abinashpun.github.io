@@ -19,11 +19,22 @@ Education
 
 Experience
 ======
-* Post-Doctoral Researcher (Aug 2019- current)
+* <ins>**Post-Doctoral Researcher** (Aug 2019- current)<ins>
    * Analyzing the production mechanism of an elementary particle from collision experiment at Fermilab.
-      - Estimated background noise in data with Gaussian Process Regression (GPR) method. Montecarlo simulation technique is used to validate the background elimination process.
+      - Estimated background noise in data with **Gaussian Process Regression (GPR)** method. Montecarlo simulation technique is used to validate the background elimination process.
+      - Developed “mixing method” framework to estimate the combinatorial background (random combination of tracks mimicking real signal).
+      - Implemented data driven methods for **data unfolding ( Iterative Bayesian, Singular Value Decomposition, Iterative Dynamically Stabilized, Gaussian Process)** to correct the resolution and limited acceptance of the detector.
+   * Working on future experiment at Fermilab to measure an intrinsic property (spin) of a subatomic particle (proton).
+      - Leading the effort in **development and maintenance of the analysis software framework** (C/C++ based).
+      - Implemented **Kalman Filter Algorithm** and developed energy loss model for reconstruction of particle track.
+      - Developed model to estimate the realistic distribution of interaction vertices of particles across the beam volumes.
+      - Developed model to simulate the full background produced in experiment.
+      - Managing **data Pipeline** and analyzing data for integrity check. **Bash scripts** were written and
+run as **cron job** for the purpose.
+      - Implemented the use of **singularity container** of the analysis software to run the grid jobs at different cluster in OSG (Open Scince Grid) and Fermilab Grid.
+      - Created the optimized set of hit pattern, **Trigger Road-sets**, to record the desired signal in the experiment. As enormous amount of data are produced in high rate, not all the data can be recorded.
+      - Developed a framework to reconstruct interaction vertex of tracks with **Deep Neural Network (PyTorch)**.
 
-	
 <!--
 * Development and maintenance of the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
