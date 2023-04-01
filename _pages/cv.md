@@ -35,6 +35,17 @@ run as **cron job** for the purpose.
       - Created the optimized set of hit pattern, **Trigger Road-sets**, to record the desired signal in the experiment. As enormous amount of data are produced in high rate, not all the data can be recorded.
       - Developed a framework to reconstruct interaction vertex of tracks with **Deep Neural Network (PyTorch)**.
 
+* <ins>**Graduate Researcher** (Aug 2013- Aug 2019)<ins>
+   * Analyzed data from collision experiment at Brookhaven Lab. The goal of the analysis was to help better understand the state (Quark Gluon Plasma, QGP) of our early universe In particular, measured azimuth angle correlation of two particles to study the energy loss behavior due to the presence of QGP.
+      – Performed QA (Quality Analysis) of data, identified and separated the particles (photons and hadrons) of interest and corrected the data for limited detector acceptance
+      – Measured the observable to quantify the two particle correlation in the azimuthal angle difference between them. The result provided the hint of the production of QGP in the collision
+      – Performed various simulation checks were made to rule out the contributions of other physics in the obtained result.
+   * Performed various simulation study for the Detector Design at Brookhaven Lab.
+      – Evaluated different Clustering Algorithms to collect the hits deposited by single particle in detector.
+      – Performed position dependent calibration of detector (Electromagnetic Calorimeter).
+      – Contributed towards the software for detector design and analysis.z
+
+
 <!--
 * Development and maintenance of the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
