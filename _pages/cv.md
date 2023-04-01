@@ -92,6 +92,7 @@ Leadership and Mentoring
 * **President**, "Nepalese Student Association at Ohio University, NEPSA" (2018-2019)
 * **Founding Vice-President**, "Nepalese Student Association at Ohio University, NEPSA" (2017)
 * **Instructor**, Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
+
 <!-- 
 * Skill 1
 * Skill 2
