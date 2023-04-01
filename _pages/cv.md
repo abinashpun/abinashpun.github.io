@@ -21,7 +21,8 @@ Experience
 ======
 * Post-Doctoral Researcher (Aug 2019- current)
    * Analyzing the production mechanism of an elementary particle from collision experiment at Fermilab.
-      -Estimated background noise in data with Gaussian Process Regression (GPR) method. Montecarlo simulation technique is used to validate the background elimination process.
+      - Estimated background noise in data with Gaussian Process Regression (GPR) method. Montecarlo simulation technique is used to validate the background elimination process.
+
 	
 <!--
 * Development and maintenance of the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
