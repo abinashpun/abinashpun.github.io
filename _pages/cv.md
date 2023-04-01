@@ -82,6 +82,16 @@ Trainings and Certifications
 * IBM Data Science Professional Certificate (Coursera)
 * IBM Machine Learning Professional Certificate (Coursera)
 
+Leadership and Mentoring
+======
+* **Manager**, ["GitHub"](https://github.com/E1039-Collaboration) of SpinQuest Collaboration (2019-present)
+* Providing guidance to three graduate students in the New Mexico State University (NMSU) particle physics group. 
+* **Co-ordinator**, "Tracking and simulation" at SpinQuest Experiment (2019-present)
+* **Co-ordinator**, "Data management" at SpinQuest Experiment (2019-present)
+* **Incharge**, "Lunch with INPP seminar speaker at Ohio University" (2018-2019)
+* **President**, "Nepalese Student Association at Ohio University, NEPSA" (2018-2019)
+* **Founding Vice-President**, "Nepalese Student Association at Ohio University, NEPSA" (2017)
+* **Instructor**, Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
 <!-- 
 * Skill 1
 * Skill 2
@@ -141,16 +151,6 @@ Professional Memberships
 * American Physical Society (APS)
 * Nepal Physical Society (NPS)
 
-Leadership and Mentoring
-======
-* **Manager**, ["GitHub"](https://github.com/E1039-Collaboration) of SpinQuest Collaboration (2019-present)
-* Providing guidance to three graduate students in the New Mexico State University (NMSU) particle physics group. 
-* **Co-ordinator**, "Tracking and simulation" at SpinQuest Experiment (2019-present)
-* **Co-ordinator**, "Data management" at SpinQuest Experiment (2019-present)
-* **Incharge**, "Lunch with INPP seminar speaker at Ohio University" (2018-2019)
-* **President**, "Nepalese Student Association at Ohio University, NEPSA" (2018-2019)
-* **Founding Vice-President**, "Nepalese Student Association at Ohio University, NEPSA" (2017)
-* **Instructor**, Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
 
 Honors and Awards
 ======
