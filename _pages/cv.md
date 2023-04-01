@@ -66,7 +66,7 @@ run as **cron job** for the purpose.
    * Supervisor: Professor Hub
 -->
 
-Software and Computation
+Software and Computation Skills
 ======
 * Languages: C/C++, Python (NumPy, Pandas, scipy, lmfit, Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV), Fortran, Bash Script, SQL, Latex
 * Tools: GitHub, Jupyter-Notebook, Linux/Unix, Docker, Singularity, Doxygen
@@ -75,11 +75,12 @@ Software and Computation
 * Others: Grid computing (High-Throughput Computing-HTC, Open Science Grid-OSG), Amazon Web Service (SageMaker Traning Job-SMT), IBM Watson 
 
 
-Trainings and Workshops
+Trainings and Certifications
 ======
 * High Throughput Computing (HTC): OSG (Open Science Grid) Virtual School 2021
 * Computational and Data Science: CODAS-HEP 2022 (Princeton University)
-
+* IBM Data Science Professional Certificate (Coursera)
+* IBM Machine Learning Professional Certificate (Coursera)
 <!-- 
 * Skill 1
 * Skill 2
@@ -107,6 +108,7 @@ Talks
   {% endfor %}</ul>
 -->  
 
+<!---
 Student Advising and Mentorship
 ======
 * Dinupa Batugedara Mohottalalage (Graduate Student, NMSU): Single Track and Dimuon Reconstruction Efficiency
@@ -115,6 +117,7 @@ Student Advising and Mentorship
 Teaching 
 ======
 * Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
+--->
 
 <!-- 
   <ul>{% for post in site.teaching %}
@@ -132,16 +135,18 @@ Collaborations
 Professional Memberships
 ======
 * American Physical Society (APS)
+* Nepal Physical Society (NPS)
 
-Service and leadership
+Leadership and Mentoring
 ======
-* Co-ordinator, "Tracking and simulation" at SpinQuest Experiment (2019-present)
-* Co-ordinator, "Data management" at SpinQuest Experiment (2019-present)
-* Manager, ["E1039-Collaboration GitHub"](https://github.com/E1039-Collaboration) (2019-present) 
-* Incharge, "Lunch with INPP seminar speaker-OU" (2018-2019)
-* President, "Nepalese Student Association in OU" (2018-2019)
-* Founding Vice-President, "Nepalese Student Association in OU" (2017)
-
+* **Manager**, ["GitHub"](https://github.com/E1039-Collaboration) of SpinQuest Collaboration (2019-present)
+* Providing guidance to three graduate students in the New Mexico State University (NMSU) particle physics group. 
+* **Co-ordinator**, "Tracking and simulation" at SpinQuest Experiment (2019-present)
+* **Co-ordinator**, "Data management" at SpinQuest Experiment (2019-present)
+* **Incharge**, "Lunch with INPP seminar speaker at Ohio University" (2018-2019)
+* **President**, "Nepalese Student Association at Ohio University, NEPSA" (2018-2019)
+* **Founding Vice-President**, "Nepalese Student Association at Ohio University, NEPSA" (2017)
+* **Instructor**, Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
 Honors and Awards
 ======
 * Ranked among top 5% in my M. Sc. class, Tribhuvan Univ. 2012
