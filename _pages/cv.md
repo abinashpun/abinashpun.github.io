@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Abinash Pun"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -17,13 +17,19 @@ Education
 * B.Sc. in Physics, Tribhuvan University, Nepal (2009)
 
 
-Research Experience
+Experience
 ======
+* Post-Doctoral Researcher (Aug 2019- current)
+   * Analyzing the production mechanism of an elementary particle from collision experiment at Fermilab.
+      -Estimated background noise in data with Gaussian Process Regression (GPR) method. Montecarlo simulation technique is used to validate the background elimination process.
+	
+<!--
 * Development and maintenance of the software and analysis framework (C/C++ and CERN ROOT based) for SpinQuest Experiment at Fermi National Laboratory
 * Data management for SpinQuest Experiment (Grid Computing)
 * Measurement Angular decay coefficients of J/Psi mesons from p+Fe collisions at $\sqrt{s}$ = 15.065 GeV
 * Electro-Magnetic Calorimeter of sPHENIX experiment at RHIC (Brookhaven National Laboratory): Design Study with Simulation
 * Jet-related Two Particle Correlations Measurement in small systems at PHENIX experiment at RHIC (Brookhaven National Laboratory)
+-->
 
 <!-- 
 * Summer 2015: Research Assistant

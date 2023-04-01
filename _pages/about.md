@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my personal webpage. I am a post-doctoral research associate at New Mexico State University, working on the SpinQuest experiment at Fermi National Lab.
+Welcome to my personal webpage. I am a post-doctoral researcher at New Mexico State University with decade long experience of programming, software development and big-data analysis. Currently, I am working on multiple projects of the SeaQuest and the SpinQuest experiments at Fermi National Lab.
 
 [SpinQuest](https://spinquest.fnal.gov/) at Fermilab is intended to explore properties of the proton's spin composition. Many of the physical and chemical processes depend greatly on the interactions of subatomic particles and their spin. Understanding the origin proton’s spin will help us to better know about the strongest force in the nature. Protons are comprised of different valence quarks, sea quarks and gluons. The experiment is particularly focused on exploring the sea quark's contribution towards the total spin of proton. 
 
