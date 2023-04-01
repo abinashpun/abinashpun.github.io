@@ -81,6 +81,7 @@ Trainings and Certifications
 * Computational and Data Science: CODAS-HEP 2022 (Princeton University)
 * IBM Data Science Professional Certificate (Coursera)
 * IBM Machine Learning Professional Certificate (Coursera)
+
 <!-- 
 * Skill 1
 * Skill 2
@@ -89,26 +90,29 @@ Trainings and Certifications
    * Sub-skill 2.3
 * Skill 3
 -->
+
 <!--
 Publications
 ======
---->
+-->
 <!-- 
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 -->
+
 <!--
 Talks
 ======
---->
+-->
+
 <!-- 
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 -->  
 
-<!---
+<!--
 Student Advising and Mentorship
 ======
 * Dinupa Batugedara Mohottalalage (Graduate Student, NMSU): Single Track and Dimuon Reconstruction Efficiency
@@ -117,7 +121,7 @@ Student Advising and Mentorship
 Teaching 
 ======
 * Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
---->
+-->
 
 <!-- 
   <ul>{% for post in site.teaching %}
@@ -147,6 +151,7 @@ Leadership and Mentoring
 * **President**, "Nepalese Student Association at Ohio University, NEPSA" (2018-2019)
 * **Founding Vice-President**, "Nepalese Student Association at Ohio University, NEPSA" (2017)
 * **Instructor**, Various Under Graduate Labs (PHYS 2001, PHYS 2051, PHYS 2052, PHYS 4701): (2013-2019)
+
 Honors and Awards
 ======
 * Ranked among top 5% in my M. Sc. class, Tribhuvan Univ. 2012
