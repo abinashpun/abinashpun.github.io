@@ -37,13 +37,13 @@ run as **cron job** for the purpose.
 
 * <ins>**Graduate Researcher** (Aug 2013- Aug 2019)<ins>
    * Analyzed data from collision experiment at Brookhaven Lab. The goal of the analysis was to help better understand the state (Quark Gluon Plasma, QGP) of our early universe In particular, measured azimuth angle correlation of two particles to study the energy loss behavior due to the presence of QGP.
-      – Performed QA (Quality Analysis) of data, identified and separated the particles (photons and hadrons) of interest and corrected the data for limited detector acceptance
-      – Measured the observable to quantify the two particle correlation in the azimuthal angle difference between them. The result provided the hint of the production of QGP in the collision
-      – Performed various simulation checks were made to rule out the contributions of other physics in the obtained result.
+      - Performed QA (Quality Analysis) of data, identified and separated the particles (photons and hadrons) of interest and corrected the data for limited detector acceptance
+      - Measured the observable to quantify the two particle correlation in the azimuthal angle difference between them. The result provided the hint of the production of QGP in the collision
+      - Performed various simulation checks were made to rule out the contributions of other physics in the obtained result.
    * Performed various simulation study for the Detector Design at Brookhaven Lab.
-      – Evaluated different Clustering Algorithms to collect the hits deposited by single particle in detector.
-      – Performed position dependent calibration of detector (Electromagnetic Calorimeter).
-      – Contributed towards the software for detector design and analysis.z
+      - Evaluated different Clustering Algorithms to collect the hits deposited by single particle in detector.
+      - Performed position dependent calibration of detector (Electromagnetic Calorimeter).
+      - Contributed towards the software for detector design and analysis.z
 
 
 <!--
@@ -68,10 +68,11 @@ run as **cron job** for the purpose.
 
 Software and Computation
 ======
-* Languages: C/C++, Python, Fortran, Bash, SQL, Latex
-* Tools: Git, Linux, Docker, Singularity, Doxygen
+* Languages: C/C++, Python (NumPy, Pandas, scipy, lmfit, Scikit-learn, PyTorch, TensorFlow, Keras, OpenCV), Fortran, Bash Script, SQL, Latex
+* Tools: GitHub, Jupyter-Notebook, Linux/Unix, Docker, Singularity, Doxygen
+* Algoritm: Kalman Filter, Iterative Bayesian Unfolding, Detector hit Clustering
 * HEP Packages: ROOT, GenFit, GEANT, Fun4All, RooUnfold, Scikit-HEP
-* Others: Grid computing (high-throughput computing (HTC)), Computer Networking
+* Others: Grid computing (High-Throughput Computing-HTC, Open Science Grid-OSG), Amazon Web Service (SageMaker Traning Job-SMT), IBM Watson 
 
 
 Trainings and Workshops
