@@ -20,7 +20,7 @@ Education
 
 Experience
 ======
-* <ins>**Post-Doctoral Researcher** (Aug 2019- current)<ins>
+* <ins>**Post-Doctoral Researcher**, New Mexixo State University (Aug 2019- current)<ins>
    * Analyzing the production mechanism of an elementary particle from collision experiment at Fermilab.
       - Estimated background noise in data with **Gaussian Process Regression (GPR)** method. Montecarlo simulation technique is used to validate the background elimination process.
       - Developed “mixing method” framework to estimate the combinatorial background (random combination of tracks mimicking real signal).
@@ -36,7 +36,7 @@ run as **cron job** for the purpose.
       - Created the optimized set of hit pattern, **Trigger Road-sets**, to record the desired signal in the experiment. As enormous amount of data are produced in high rate, not all the data can be recorded.
       - Developed a framework to reconstruct interaction vertex of tracks with **Deep Neural Network (PyTorch)**.
 
-* <ins>**Graduate Researcher** (Aug 2013- Aug 2019)<ins>
+* <ins>**Graduate Researcher**, Ohio University (Aug 2013- Aug 2019)<ins>
    * Analyzed data from collision experiment at Brookhaven Lab. The goal of the analysis was to help better understand the state (Quark Gluon Plasma, QGP) of our early universe In particular, measured azimuth angle correlation of two particles to study the energy loss behavior due to the presence of QGP.
       - Performed QA (Quality Analysis) of data, identified and separated the particles (photons and hadrons) of interest and corrected the data for limited detector acceptance
       - Measured the observable to quantify the two particle correlation in the azimuthal angle difference between them. The result provided the hint of the production of QGP in the collision
