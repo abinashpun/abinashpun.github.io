@@ -20,7 +20,7 @@ Education
 
 Experience
 ======
-* <ins>**Post-Doctoral Researcher**, New Mexixo State University (Aug 2019- current)<ins>
+* <ins>**Post-Doctoral Researcher**, New Mexico State University (Aug 2019- current)<ins>
    * Analyzing the production mechanism of an elementary particle from collision experiment at Fermilab.
       - Estimated background noise in data with **Gaussian Process Regression (GPR)** method. Montecarlo simulation technique is used to validate the background elimination process.
       - Developed “mixing method” framework to estimate the combinatorial background (random combination of tracks mimicking real signal).
