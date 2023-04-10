@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-<br/><br/>
+<br/>
+
 Education
 ======
 * Ph.D. in High Energy Experimental Nuclear Physics, Ohio University, USA (2019)
