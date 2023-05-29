@@ -96,6 +96,7 @@ The implementation is here in the link ....
 - Parenthesis matching
 - Full subway
 
+
 ## Queue
 - Insertion (deletion) can be done only at the rear (front).
 - FIFO: First-In First-Out
@@ -104,6 +105,9 @@ The implementation is here in the link ....
     - Dequeue: remove the oldest element
     - Enqueue and dequeue occur at the opposit sides
 - Stack overflow: push an item when the stack is full.
+
+
+The implementation is here in the link ....
 
 ### Application of Queue 
 - OS job scheduling
@@ -115,3 +119,16 @@ Enqueue and Dequeue can be done in both ends.
 Python provides a library of deque.
 ```
 from collections import deque 
+```
+
+<hr>
+
+# Tree
+
+<hr>
+
+# Heap
+
+<hr>
+
+# Hash Table or Hash Map
