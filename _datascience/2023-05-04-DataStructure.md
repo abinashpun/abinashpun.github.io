@@ -25,5 +25,50 @@ collection: datascience
     - Optimized Search: Linear array: O(log n), Dynamic array: O(log n)
     - Insertion: Linear array: n/a, Dynamic array: O(n)
 
+<hr>
 
 # Linked List
+
+## Composition
+
+- Head: Beginning of a list. 
+- Node: Data + A pointer (link)
+    - The pointer contains the address of the next node.
+- Tail: End of a list. 
+
+**Pros**
+- No memory waste from dynamic allocation.
+- Designed to optimize insertion and deletion. Insertion and deletion can be done anywhere and cost less (O(1) to insert in front of the head than arrays (O(n)).
+
+**Cons**
+- Complicated implementation.
+- Fragmented memory allocation.
+- Extra space than array for pointers.
+- No direct access to an element in the middle.
+- Traverse only one direction, from head to tail.
+
+**Time Complexity**
+- Indexing: Linked Lists: O(n)
+- Search: Linked Lists: O(n)
+- Optimized Search: Linked Lists: O(n)
+- Append: Linked Lists: O(1)
+- Prepend: Linked Lists: O(1)
+- Insertion: Linked Lists: O(n)
+
+## Variations 
+
+### Circular Linked List
+- Same structure, except the last node points the first node.
+- Traverse to the previous node is possible (on the next round).
+- The head pointer is not necessary (head can be replaced by tail.link)
+
+### Double Linked List
+- Components:
+    - Head: Beginning of a list. 
+    - Node: Data + A pointer to the previous node + A pointer to the next node.
+    - Tail: End of a list. 
+- Can traverse bidirection.
+    - Insertion and deletion of a node in front of a given node can be done fast.
+- Requires more space for the previous pointers.
+
+
