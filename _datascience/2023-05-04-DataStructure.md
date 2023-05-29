@@ -72,3 +72,46 @@ collection: datascience
 - Requires more space for the previous pointers.
 
 
+The implementation is here in the link ....
+
+<hr>
+
+# Stack, Queue
+
+Stack, Queue, and Deque are commonly used linear (ordered) data strucrues. They vary depending on the position of insertion and deletion operation. These are commonly implemented with linked lists but can be made from arrays too.
+
+## Stack
+- Insertion and deletion can be done only at the top.
+- LIFO: Last-In First-Out
+- Basic operations
+    - Push: insert/stack the new element on the top
+    - Pop: remove the last (top) element
+- Stack overflow: push an item when the stack is full.
+
+The implementation is here in the link ....
+
+### Applications of Stack
+- Function call
+- Recursive function
+- Parenthesis matching
+- Full subway
+
+## Queue
+- Insertion (deletion) can be done only at the rear (front).
+- FIFO: First-In First-Out
+- Basic operations
+    - Enqueue: insert the new element at the end of a queue
+    - Dequeue: remove the oldest element
+    - Enqueue and dequeue occur at the opposit sides
+- Stack overflow: push an item when the stack is full.
+
+### Application of Queue 
+- OS job scheduling
+- Public bathroom
+
+## Deque
+Deque is double ended queue, like Stack+Queue.
+Enqueue and Dequeue can be done in both ends.
+Python provides a library of deque.
+```
+from collections import deque 
