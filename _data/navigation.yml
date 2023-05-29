@@ -9,6 +9,8 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Data Science"
+    url: /datascience/
 
  # - title: "Teaching"
  #   url: /teaching/    
