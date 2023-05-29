@@ -1,6 +1,6 @@
 ---
 title: "Python Basics"
-excerpt: "Short description for basics of python programming"
+excerpt: "Notes on basics of python programming"
 collection: datascience
 ---
 
