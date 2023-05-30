@@ -117,6 +117,7 @@ The implementation is here in the link ....
 Deque is double ended queue, like Stack+Queue.
 Enqueue and Dequeue can be done in both ends.
 Python provides a library of deque.
+
 ```
 from collections import deque 
 ```
@@ -124,6 +125,42 @@ from collections import deque
 <hr>
 
 # Tree
+A tree is a data structure that represents a hierarchical relationship. 
+A link to another node is one way (only from higher to lower, no cyclic connection), 
+and each node has its own subtree.
+
+# Component
+- Node: an element of a tree (data + link to its child node(s))
+    - Root node: The top node of a tree
+    - Parent node (higher) <-> Child node (lower)
+    - Sibling nodes: Nodes that have the same parent nodes. 
+    - Ancestor node: A parent or higher node
+    - Descendent node: A child or lower node
+    - Terminal node (=leaf): A node that doesn't have a child node
+    - Internal node: A node that is not a terminal node
+- Edge: a line connects two adjacent nodes
+
+# Terms
+- Level: Depth from the root (level of the root = 1)
+- Height (=depth of a tree): The maximum level of a tree
+- Degree of a node: Its number of child node(s)
+- Degree of a tree: The maximum degree of a node within a tree
+
+# Binary tree
+A tree whose degree is two or smaller is a binary tree. 
+In a binary tree, every internal node has either one or two children. 
+Every subtree of a binary tree is another binary tree.
+
+## N-degree tree can be a binary tree
+Every n-degree tree can be transformed into a binary tree by following steps.
+1. Remove all edges except the connection between a parent and the most left child.
+2. From every node, draw an edge to its sibling at the right. 
+3. Rotate the tree 90 degrees clockwise.
+
+## Variations
+- Complete binary tree: All internal nodes have two children nodes
+- Perfect/Full binary tree: All level is full (l-th level has 2^l nodes). A perfect binary tree is a complete binary, but not vice versa. 
+- Skewed binary tree: Every node has either one or zero child.
 
 <hr>
 
