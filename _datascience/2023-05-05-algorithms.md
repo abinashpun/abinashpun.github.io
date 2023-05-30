@@ -6,10 +6,8 @@ collection: datascience
 
 <!-- # <a id="algorithms"></a> Algorithms
 ## <a id="algorithm-basics"></a> Algorithm Basics -->
-# Algorithms
-<hr>
 
-## Recursive Algorithms
+# Recursive Algorithms
 #### Definition
 - An algorithm that calls itself in its definition.
   - **Recursive case** a conditional statement that is used to trigger the recursion.
@@ -24,7 +22,7 @@ collection: datascience
 
 <hr>
 
-## Iterative Algorithms
+# Iterative Algorithms
 #### Definition
 - An algorithm that is called repeatedly but for a finite number of times, each time being a single iteration.
   - Often used to move incrementally through a data set.
@@ -55,7 +53,7 @@ recursive method (array, n)       | iterative method (array)
 ```
 <hr>
 
-## Greedy Algorithms
+# Greedy Algorithms
 #### Definition
 - An algorithm that, while executing, selects only the information that meets a certain criteria.
 - The general five components, taken from [Wikipedia](http://en.wikipedia.org/wiki/Greedy_algorithm#Specifics):
@@ -81,6 +79,48 @@ greedy algorithm (array)
 ```
 
 This algorithm never needed to compare all the differences to one another, saving it an entire iteration.
+
+<hr>
+<hr>
+
+# Sorting Algorithms
+
+Sort makes searches faster.
+Let's cover famous sorting algorithms with their complexity and implementation.
+Implementation can vary a little, but the complexity in big O won't vary.
+
+### Evaluation of sort algorithms
+- Number of comparison
+- Number of moves
+
+
+## Selction Sort
+#### Definition
+- A comparison based sorting algorithm.
+  - Starts with the cursor on the left, iterating left to right
+  - Compares the left side to the right, looking for the smallest known item
+    - If the left is smaller than the item to the right it continues iterating
+    - If the left is bigger than the item to the right, the item on the right becomes the known smallest number
+    - Once it has checked all items, it moves the known smallest to the cursor and advances the cursor to the right and starts over
+  - As the algorithm processes the data set, it builds a fully sorted left side of the data until the entire data set is sorted
+- Changes the array in place.
+
+#### What you need to know
+- Inefficient for large data sets.
+- Very simple to implement.
+
+#### Time Complexity
+- Best Case Sort: `O(n^2)`
+- Average Case Sort: `O(n^2)`
+- Worst Case Sort: `O(n^2)`
+
+#### Space Complexity
+- Worst Case: `O(1)`
+
+#### Visualization
+![#](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+
+[(source: Wikipedia, _Selection Sort_)](https://en.wikipedia.org/wiki/Selection_sort)
 
 https://www.khanacademy.org/computing/computer-science/algorithms
 
