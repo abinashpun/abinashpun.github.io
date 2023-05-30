@@ -169,7 +169,7 @@ Every n-degree tree can be transformed into a binary tree by following steps.
 
 ### Variations
 - Complete binary tree: All internal nodes have two children nodes
-- Perfect/Full binary tree: All level is full ($l^{th}$ level has $2^l$ nodes). A perfect binary tree is a complete binary, but not vice versa. 
+- Perfect/Full binary tree: All level is full (l$^{th}$ level has $2^l$ nodes). A perfect binary tree is a complete binary, but not vice versa. 
 - Skewed binary tree: Every node has either one or zero child.
 
 The implementation of tree is as shown here ......
@@ -177,7 +177,56 @@ The implementation of tree is as shown here ......
 <hr>
 
 # Heap
+A heap is a complete binary tree, 
+where every parent has a key greater than or equal to (max heap) or less than or equal to (min heap) its child's key. 
+
+### Properties
+- Height of a heap with n nodes: ``log2(n)+1``
+- Except for the last level, i-th level has $2^(i-1)$ nodes.
+- Left child's index = parent's index * 2  
+- Right child's index = parent's index * 2 + 1
+- Parent's index = Child's index/2
+
+### Insertion (upheap)
+1. Insert the new element next to the last node
+2. Keep exchanging with its parent until it satisfies max/min heap condition
+
+Time complexity: height of a heap, ``O(log2(n)) ``
+
+### Deletion (downheap)
+1. Move the last element to the deleted node
+2. Keep exchanging with its larger (smaller) child until it satisfies max (min) heap condition
+
+Time complexity: height of a heap, ``O(log2(n)) ``
+
+### Heap sort
+Sorting algorithm which utilize heap structure.
+For n elements,
+1. Add elements with upheap 
+2. Delete and pop element with downheap. Popped element is saved to the sorted array
+
+#### Time complexity:
+For each element, maximum number of upheap or downheap operation is equal to the tree height, ``O(log2(n))``
+Total complexity for n elements: ``O(nlog2(n))``
+
+The implementation is as shown in ...
 
 <hr>
 
 # Hash Table or Hash Map
+## Definition
+- Stores data with key value pairs.
+- Hash functions accept a key and return an output unique only to that specific key.
+    - This is known as hashing, which is the concept that an input and an output have a one-to-one correspondence to map information.
+    - Hash functions return a unique address in memory for that data.
+## What you need to know
+- Designed to optimize searching, insertion, and deletion.
+- Hash collisions are when a hash function returns the same output for two distinct inputs.
+    - All hash functions have this problem.
+    - This is often accommodated for by having the hash tables be very large.
+- Hashes are important for **associative arrays and database indexing**.
+
+## Time Complexity
+- Indexing: Hash Tables: O(1)
+- Search: Hash Tables: O(1)
+- Insertion: Hash Tables: O(1)
