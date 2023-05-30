@@ -182,7 +182,7 @@ where every parent has a key greater than or equal to (max heap) or less than or
 
 ### Properties
 - Height of a heap with n nodes: ``log2(n)+1``
-- Except for the last level, i-th level has $2^(i-1)$ nodes.
+- Except for the last level, i-th level has $2^{(i-1)}$ nodes.
 - Left child's index = parent's index * 2  
 - Right child's index = parent's index * 2 + 1
 - Parent's index = Child's index/2
