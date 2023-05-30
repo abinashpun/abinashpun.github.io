@@ -118,9 +118,9 @@ Deque is double ended queue, like Stack+Queue.
 Enqueue and Dequeue can be done in both ends.
 Python provides a library of deque.
 
-````
+`
 from collections import deque 
-````
+`
 
 <hr>
 
@@ -227,6 +227,6 @@ The implementation is as shown in ...
 - Hashes are important for **associative arrays and database indexing**.
 
 ## Time Complexity
-- Indexing: Hash Tables: O(1)
-- Search: Hash Tables: O(1)
-- Insertion: Hash Tables: O(1)
+- Indexing: Hash Tables: ``O(1)``
+- Search: Hash Tables: ``O(1)``
+- Insertion: Hash Tables: ``O(1)``
