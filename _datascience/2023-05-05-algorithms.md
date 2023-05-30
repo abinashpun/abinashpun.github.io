@@ -121,7 +121,7 @@ The implementation is here .............
   - Once it cannot go further left it begins evaluating the stack.
 
 #### Time Complexity
-- Search: Depth First Search: $O(|E| + |V|)$
+- Search: Depth First Search: $O(\|E\| + \|V\|)$
 - E is number of edges
 - V is number of vertices
 
@@ -182,12 +182,94 @@ Implementation can vary a little, but the complexity in big O won't vary.
 [(source: Wikipedia, _Selection Sort_)](https://en.wikipedia.org/wiki/Selection_sort)
 
 
+The implementation is here .................
 
 
+## Insertion Sort
+#### Definition
+- A comparison based sorting algorithm.
+  - Iterates left to right comparing the current cursor to the previous item.
+  - If the cursor is smaller than the item on the left it swaps positions and the cursor compares itself again to the left hand side until it is put in its sorted position.
+  - As the algorithm processes the data set, the left side becomes increasingly sorted until it is fully sorted.
+- Changes the array in place.
+
+#### What you need to know
+- Inefficient for large data sets, but can be faster for than other algorithms for small ones.
+- Although it has an `O(n^2)` time complexity, in practice it is slightly less since its comparison scheme only requires checking place if it is smaller than its neighbor.
+
+#### Time Complexity
+- Best Case: `O(n)`
+- Average Case: `O(n^2)`
+- Worst Case: `O(n^2)`
+
+#### Space Complexity
+- Worst Case: `O(n)`
+
+#### Visualization
+![#](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
+[(source: Wikipedia, _Insertion Sort_)](https://en.wikipedia.org/wiki/Insertion_sort)
+
+The implementation is here .................
+
+# Merge Sort
+#### Definition
+- A divide and conquer algorithm.
+  - Recursively divides entire array by half into subsets until the subset is one, the base case.
+  - Once the base case is reached results are returned and sorted ascending left to right.
+  - Recursive calls are returned and the sorts double in size until the entire array is sorted.
+
+#### What you need to know
+- This is one of the fundamental sorting algorithms.
+- Know that it divides all the data into as small possible sets then compares them.
+
+#### Time Complexity
+- Worst Case: `O(n log n)`
+- Average Case: `O(n log n)`
+- Best Case: `O(n)`
+
+#### Space Complexity
+- Worst Case: `O(1)`
+
+#### Visualization
+![#](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/400px-Merge_sort_algorithm_diagram.svg.png)
+
+[(source: Wikipedia, _Merge Sort_)](https://en.wikipedia.org/wiki/Merge_sort)
+
+The implementation is here .................
+
+## Quick sort
+#### Definition
+- A divide and conquer algorithm
+  - Partitions entire data set in half by selecting a random pivot element and putting all smaller elements to the left of the element and larger ones to the right.
+  - It repeats this process on the left side until it is comparing only two elements at which point the left side is sorted.
+  - When the left side is finished sorting it performs the same operation on the right side.
+- Computer architecture favors the quicksort process.
+- Changes the array in place.
+
+#### What you need to know
+- While it has the same Big O as (or worse in some cases) many other sorting algorithms it is often faster in practice than many other sorting algorithms, such as merge sort.
+
+#### Time Complexity
+- Worst Case: `O(n^2)`
+- Average Case: `O(n log n)`
+- Best Case: `O(n log n)`
+
+#### Space Complexity
+- Worst Case: `O(log n)`
+
+#### Visualization
+![#](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+
+[(source: Wikipedia, _Quicksort_)](https://en.wikipedia.org/wiki/Quicksort)
+
+#### Merge Sort Vs. Quicksort
+- Quicksort is likely faster in practice, but merge sort is faster on paper.
+- Merge Sort divides the set into the smallest possible groups immediately then reconstructs the incrementally as it sorts the groupings.
+- Quicksort continually partitions the data set by a pivot, until the set is recursively sorted.
 
 
+# Resources
 
-https://www.khanacademy.org/computing/computer-science/algorithms
-
-
-https://github.com/tsiege/Tech-Interview-Cheat-Sheet#definition-3
+- https://www.khanacademy.org/computing/computer-science/algorithms
+- https://github.com/tsiege/Tech-Interview-Cheat-Sheet#definition-3
