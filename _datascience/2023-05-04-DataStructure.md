@@ -22,7 +22,7 @@ collection: datascience
 - **Time Complexity**
     - Indexing: Linear array: O(1), Dynamic array: O(1)
     - Search: Linear array: O(n), Dynamic array: O(n)
-    - Optimized Search: Linear array: O(log n), Dynamic array: O(log n)
+    - Optimized Search: Linear array: O(log n), Dynamic array: ``O(log n)``
     - Insertion: Linear array: n/a, Dynamic array: O(n)
 
 <hr>
@@ -48,12 +48,12 @@ collection: datascience
 - Traverse only one direction, from head to tail.
 
 **Time Complexity**
-- Indexing: Linked Lists: O(n)
-- Search: Linked Lists: O(n)
-- Optimized Search: Linked Lists: O(n)
-- Append: Linked Lists: O(1)
-- Prepend: Linked Lists: O(1)
-- Insertion: Linked Lists: O(n)
+- Indexing: Linked Lists: ``O(n)``
+- Search: Linked Lists: ``O(n)``
+- Optimized Search: Linked Lists: ``O(n)``
+- Append: Linked Lists: ``O(1)``
+- Prepend: Linked Lists: ``O(1)``
+- Insertion: Linked Lists: ``O(n)``
 
 ## Variations 
 
