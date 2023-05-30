@@ -129,7 +129,7 @@ A tree is a data structure that represents a hierarchical relationship.
 A link to another node is one way (only from higher to lower, no cyclic connection), 
 and each node has its own subtree.
 
-# Component
+## Component
 - Node: an element of a tree (data + link to its child node(s))
     - Root node: The top node of a tree
     - Parent node (higher) <-> Child node (lower)
@@ -140,13 +140,13 @@ and each node has its own subtree.
     - Internal node: A node that is not a terminal node
 - Edge: a line connects two adjacent nodes
 
-# Terms
+## Terms
 - Level: Depth from the root (level of the root = 1)
 - Height (=depth of a tree): The maximum level of a tree
 - Degree of a node: Its number of child node(s)
 - Degree of a tree: The maximum degree of a node within a tree
 
-# Binary tree
+## Binary tree
 A tree whose degree is two or smaller is a binary tree. 
 In a binary tree, every internal node has either one or two children. 
 Every subtree of a binary tree is another binary tree.
