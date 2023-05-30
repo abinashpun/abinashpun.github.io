@@ -118,9 +118,9 @@ Deque is double ended queue, like Stack+Queue.
 Enqueue and Dequeue can be done in both ends.
 Python provides a library of deque.
 
-``
+````
 from collections import deque 
-``
+````
 
 <hr>
 
