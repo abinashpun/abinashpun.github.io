@@ -118,9 +118,9 @@ Deque is double ended queue, like Stack+Queue.
 Enqueue and Dequeue can be done in both ends.
 Python provides a library of deque.
 
-```
+``
 from collections import deque 
-```
+``
 
 <hr>
 
@@ -129,7 +129,7 @@ A tree is a data structure that represents a hierarchical relationship.
 A link to another node is one way (only from higher to lower, no cyclic connection), 
 and each node has its own subtree.
 
-## Component
+### Component
 - Node: an element of a tree (data + link to its child node(s))
     - Root node: The top node of a tree
     - Parent node (higher) <-> Child node (lower)
@@ -140,7 +140,7 @@ and each node has its own subtree.
     - Internal node: A node that is not a terminal node
 - Edge: a line connects two adjacent nodes
 
-## Terms
+### Terms
 - Level: Depth from the root (level of the root = 1)
 - Height (=depth of a tree): The maximum level of a tree
 - Degree of a node: Its number of child node(s)
@@ -151,13 +151,23 @@ A tree whose degree is two or smaller is a binary tree.
 In a binary tree, every internal node has either one or two children. 
 Every subtree of a binary tree is another binary tree.
 
-## N-degree tree can be a binary tree
+### Points to know
+- Designed to **optimize searching and sorting**.
+- A degenerate tree is an unbalanced tree, which if entirely one-sided, is essentially a linked list.
+- They are comparably simple to implement than other data structures.
+
+### Time complexity
+- Indexing: Binary Search Tree: ``O(log n)``
+- Search: Binary Search Tree: ``O(log n)``
+- Insertion: Binary Search Tree: ``O(log n)``
+
+### N-degree tree can be a binary tree
 Every n-degree tree can be transformed into a binary tree by following steps.
 1. Remove all edges except the connection between a parent and the most left child.
 2. From every node, draw an edge to its sibling at the right. 
 3. Rotate the tree 90 degrees clockwise.
 
-## Variations
+### Variations
 - Complete binary tree: All internal nodes have two children nodes
 - Perfect/Full binary tree: All level is full (l-th level has 2^l nodes). A perfect binary tree is a complete binary, but not vice versa. 
 - Skewed binary tree: Every node has either one or zero child.
