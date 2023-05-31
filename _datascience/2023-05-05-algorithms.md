@@ -157,6 +157,7 @@ Compare two adjacent elements then sort these two.
 Iterate this process side by side until the end of the array, 
 then iterate again from the beginning until all elements are sorted.
 
+#### Visualization
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//datascience_files/bubblesort.gif">
 </p>
@@ -240,9 +241,9 @@ The implementation is here .................
 - Worst Case: `O(1)`
 
 #### Visualization
-![#](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Merge_sort_algorithm_diagram.svg/400px-Merge_sort_algorithm_diagram.svg.png)
-
-[(source: Wikipedia, _Merge Sort_)](https://en.wikipedia.org/wiki/Merge_sort)
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}//datascience_files/mergesort.gif">
+</p>
 
 The implementation is here .................
 
