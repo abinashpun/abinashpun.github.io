@@ -20,10 +20,10 @@ collection: datascience
     - Deletion, insertion of an element is inefficient: requires copy and paste of the entire subsequent elements.
 
 - **Time Complexity**
-    - Indexing: Linear array: O(1), Dynamic array: O(1)
-    - Search: Linear array: O(n), Dynamic array: O(n)
+    - Indexing: Linear array: `O(1)`, Dynamic array: `O(1)`
+    - Search: Linear array: `O(n)`, Dynamic array: `O(n)`
     - Optimized Search: Linear array: O(log n), Dynamic array: ``O(log n)``
-    - Insertion: Linear array: n/a, Dynamic array: O(n)
+    - Insertion: Linear array: n/a, Dynamic array: `O(n)`
 
 <hr>
 
