@@ -22,7 +22,7 @@ collection: datascience
 - **Time Complexity**
     - Indexing: Linear array: `O(1)`, Dynamic array: `O(1)`
     - Search: Linear array: `O(n)`, Dynamic array: `O(n)`
-    - Optimized Search: Linear array: O(log n), Dynamic array: ``O(log n)``
+    - Optimized Search: Linear array: `O(log n)`, Dynamic array: ``O(log n)``
     - Insertion: Linear array: n/a, Dynamic array: `O(n)`
 
 <hr>
@@ -38,7 +38,7 @@ collection: datascience
 
 **Pros**
 - No memory waste from dynamic allocation.
-- Designed to optimize insertion and deletion. Insertion and deletion can be done anywhere and cost less (O(1) to insert in front of the head than arrays (O(n)).
+- Designed to optimize insertion and deletion. Insertion and deletion can be done anywhere and cost less (`O(1)` to insert in front of the head than arrays `(O(n)`).
 
 **Cons**
 - Complicated implementation.
