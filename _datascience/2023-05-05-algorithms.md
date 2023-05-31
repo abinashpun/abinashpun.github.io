@@ -152,6 +152,12 @@ Implementation can vary a little, but the complexity in big O won't vary.
 - Number of comparison
 - Number of moves
 
+## Bubble sort
+Compare two adjacent elements then sort these two. 
+Iterate this process side by side until the end of the array, 
+then iterate again from the beginning until all elements are sorted.
+
+
 
 ## Selction Sort
 #### Definition
