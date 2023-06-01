@@ -12,8 +12,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D. in High Energy Experimental Nuclear Physics, Ohio University, USA (2019)
-* M.S. in Physics, Ohio Unversity, USA (2016)
+* Ph.D. in High Energy Experimental Nuclear Physics, Ohio University, USA (2019): GPA = 3.795
+* M.S. in Physics, Ohio Unversity, USA (2016): : GPA = 3.759
 * M.Sc. in Physics, Tribhuvan University, Nepal (2012)
 * B.Sc. in Physics, Tribhuvan University, Nepal (2009)
 
