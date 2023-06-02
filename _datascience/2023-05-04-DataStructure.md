@@ -13,16 +13,17 @@ collection: datascience
     - If a dynamic array is full, it copies its contents to a larger array.
 
 ## Pros
-    - Simple deployment.
-    - Fast access to data of any position using its index.
+- Simple deployment.
+- Fast access to data of any position using its index.
 ## Cons
-    - Deletion, insertion of an element is inefficient: requires copy and paste of the entire subsequent elements.
+- Deletion, insertion of an element is inefficient: requires copy and paste of the entire subsequent elements.
 
 ## Time Complexity
-    - Indexing: Linear array: `O(1)`, Dynamic array: `O(1)`
-    - Search: Linear array: `O(n)`, Dynamic array: `O(n)`
-    - Optimized Search: Linear array: `O(log n)`, Dynamic array: ``O(log n)``
-    - Insertion: Linear array: N/A, Dynamic array: `O(n)`
+
+- Indexing: Linear array: `O(1)`, Dynamic array: `O(1)`
+- Search: Linear array: `O(n)`, Dynamic array: `O(n)`
+- Optimized Search: Linear array: `O(log n)`, Dynamic array: ``O(log n)``
+- Insertion: Linear array: N/A, Dynamic array: `O(n)`
 
 <hr>
 
@@ -30,10 +31,10 @@ collection: datascience
 
 ## Composition
 
-- Head: Beginning of a list. 
-- Node: Data + A pointer (link)
+- **Head**: Beginning of a list. 
+- **Node**: Data + A pointer (link)
     - The pointer contains the address of the next node.
-- Tail: End of a list. 
+- **Tail**: End of a list. 
 
 ## Pros
 - No memory waste from dynamic allocation.
