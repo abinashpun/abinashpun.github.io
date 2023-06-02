@@ -99,7 +99,7 @@ The implementation is here in the link ....
 
 ## Queue
 - Insertion (deletion) can be done only at the rear (front).
-- FIFO: First-In First-Out
+- **FIFO**: First-In First-Out
 - Basic operations
     - Enqueue: insert the new element at the end of a queue
     - Dequeue: remove the oldest element
