@@ -78,14 +78,14 @@ The implementation is here in the link ....
 
 # Stack, Queue
 
-Stack, Queue, and Deque are commonly used linear (ordered) data strucrues. They vary depending on the position of insertion and deletion operation. These are commonly implemented with linked lists but can be made from arrays too.
+Stack, Queue, and Deque are commonly used **linear (ordered) data strucrues**. They vary depending on the position of insertion and deletion operation. These are commonly implemented with linked lists but can be made from arrays too.
 
 ## Stack
 - Insertion and deletion can be done only at the top.
-- LIFO: Last-In First-Out
+- **LIFO**: Last-In First-Out
 - Basic operations
-    - Push: insert/stack the new element on the top
-    - Pop: remove the last (top) element
+    - **Push**: insert/stack the new element on the top
+    - **Pop**: remove the last (top) element
 - Stack overflow: push an item when the stack is full.
 
 The implementation is here in the link ....
