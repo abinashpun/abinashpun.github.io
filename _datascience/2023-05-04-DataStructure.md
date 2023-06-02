@@ -4,22 +4,21 @@ excerpt: "Notes on Data Structure"
 collection: datascience
 ---
 # Array
-- A set of an index and value pairs.
-- One of the oldest, most commonly used data structures.
+- A set of an index and value pairs. One of the oldest, most commonly used data structures.
 - Locate consecutively in memory, following the order of index (sequential).
 - The size of the interval between two consecutive elements is equal to the size of the data type of the element.
 - Linear arrays, or one dimensional arrays, are the most basic.
-    - Are static in size, meaning that they are declared with a fixed size.
-- Dynamic arrays are like one dimensional arrays, but have reserved space for additional elements.
+    - Are static in size i.e., that they are declared with a fixed size.
+- Dynamic arrays are like one dimensional arrays but have reserved space for additional elements.
     - If a dynamic array is full, it copies its contents to a larger array.
 
-- **Pros**
+## Pros
     - Simple deployment.
     - Fast access to data of any position using its index.
-- **Cons**
+## Cons
     - Deletion, insertion of an element is inefficient: requires copy and paste of the entire subsequent elements.
 
-- **Time Complexity**
+## Time Complexity
     - Indexing: Linear array: `O(1)`, Dynamic array: `O(1)`
     - Search: Linear array: `O(n)`, Dynamic array: `O(n)`
     - Optimized Search: Linear array: `O(log n)`, Dynamic array: ``O(log n)``
@@ -36,18 +35,18 @@ collection: datascience
     - The pointer contains the address of the next node.
 - Tail: End of a list. 
 
-**Pros**
+## Pros
 - No memory waste from dynamic allocation.
 - Designed to optimize insertion and deletion. Insertion and deletion can be done anywhere and cost less (`O(1)` to insert in front of the head than arrays `(O(n)`).
 
-**Cons**
+## Cons
 - Complicated implementation.
 - Fragmented memory allocation.
 - Extra space than array for pointers.
 - No direct access to an element in the middle.
 - Traverse only one direction, from head to tail.
 
-**Time Complexity**
+## Time Complexity
 - Indexing: Linked Lists: ``O(n)``
 - Search: Linked Lists: ``O(n)``
 - Optimized Search: Linked Lists: ``O(n)``
@@ -55,7 +54,7 @@ collection: datascience
 - Prepend: Linked Lists: ``O(1)``
 - Insertion: Linked Lists: ``O(n)``
 
-## Variations 
+## Variations of Linked Lists
 
 ### Circular Linked List
 - Same structure, except the last node points the first node.
