@@ -22,7 +22,7 @@ collection: datascience
     - Indexing: Linear array: `O(1)`, Dynamic array: `O(1)`
     - Search: Linear array: `O(n)`, Dynamic array: `O(n)`
     - Optimized Search: Linear array: `O(log n)`, Dynamic array: ``O(log n)``
-    - Insertion: Linear array: n/a, Dynamic array: `O(n)`
+    - Insertion: Linear array: N/A, Dynamic array: `O(n)`
 
 <hr>
 
