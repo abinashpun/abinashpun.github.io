@@ -92,7 +92,7 @@ The implementation is here in the link ....
 ### Applications of Stack
 - Function call
 - Recursive function
-- Parenthesis matching
+- **Parenthesis matching**
 - Full subway
 
 
