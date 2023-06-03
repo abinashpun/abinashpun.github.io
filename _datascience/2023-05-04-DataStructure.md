@@ -109,7 +109,7 @@ The implementation is here in the link ....
 The implementation is here in the link ....
 
 ### Application of Queue 
-- OS job scheduling
+- **OS job scheduling**
 - Public bathroom
 
 ## Deque
