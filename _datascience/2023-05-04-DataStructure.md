@@ -73,8 +73,6 @@ collection: datascience
 - Requires more space for the previous pointers.
 
 
-The implementation is here in the link ....
-
 <hr>
 
 # Stack, Queue
