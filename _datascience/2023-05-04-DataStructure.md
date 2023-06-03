@@ -15,6 +15,7 @@ collection: datascience
 ## Pros
 - Simple deployment.
 - Fast access to data of any position using its index.
+
 ## Cons
 - Deletion, insertion of an element is inefficient: requires copy and paste of the entire subsequent elements.
 
