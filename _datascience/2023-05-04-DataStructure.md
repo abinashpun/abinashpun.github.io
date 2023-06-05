@@ -131,7 +131,7 @@ and each node has its own subtree.
 ### Component
 - Node: an element of a tree (data + link to its child node(s))
     - Root node: The top node of a tree
-    - Parent node (higher) <-> Child node (lower)
+    - Parent node (higher) &harr; Child node (lower)
     - Sibling nodes: Nodes that have the same parent nodes. 
     - Ancestor node: A parent or higher node
     - Descendent node: A child or lower node
