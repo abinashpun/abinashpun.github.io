@@ -206,7 +206,7 @@ For n elements,
 For each element, maximum number of upheap or downheap operation is equal to the tree height, ``O(log2(n))``
 Total complexity for n elements: ``O(nlog2(n))``
 
-The implementation is as shown in [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb)
+The implementation is as shown in [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 <hr>
 
