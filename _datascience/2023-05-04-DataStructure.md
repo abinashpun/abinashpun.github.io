@@ -179,26 +179,26 @@ The implementation of tree is as shown here ......
 A heap is a complete binary tree, 
 where every parent has a key either greater than or equal to (**max heap**) or less than or equal to (**min heap**) its child's key. 
 
-### Properties
+## Properties
 - Height of a heap with n nodes: ``log2(n)+1``
 - Except for the last level, i-th level has $2^{(i-1)}$ nodes.
 - Left child's index = parent's index * 2  
 - Right child's index = parent's index * 2 + 1
 - Parent's index = Child's index/2
 
-### Insertion (upheap)
+## Insertion (upheap)
 1. Insert the new element next to the last node
 2. Keep exchanging with its parent until it satisfies max/min heap condition
 
 Time complexity: height of a heap, ``O(log2(n)) ``
 
-### Deletion (downheap)
+## Deletion (downheap)
 1. Move the last element to the deleted node
 2. Keep exchanging with its larger (smaller) child until it satisfies max (min) heap condition
 
 Time complexity: height of a heap, ``O(log2(n)) ``
 
-### Heap sort
+## Heap sort
 Sorting algorithm which utilize heap structure.
 For n elements,
 1. Add elements with upheap 
