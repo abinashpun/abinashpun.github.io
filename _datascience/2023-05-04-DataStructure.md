@@ -106,7 +106,7 @@ The implementation is here in the link ....
 - Stack overflow: push an item when the stack is full.
 
 
-The implementation is here in the link ....
+The implementation is here in the [link] (https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb)
 
 ### Application of Queue 
 - **OS job scheduling**
@@ -171,7 +171,7 @@ Every n-degree tree can be transformed into a binary tree by following steps.
 - Perfect/Full binary tree: All level is full (l$^{th}$ level has $2^l$ nodes). A perfect binary tree is a complete binary, but not vice versa. 
 - Skewed binary tree: Every node has either one or zero child.
 
-The implementation of tree is as shown here ......
+The implementation of tree is shown here [here] (https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb)
 
 <hr>
 
@@ -208,7 +208,7 @@ For n elements,
 For each element, maximum number of upheap or downheap operation is equal to the tree height, ``O(log2(n))``
 Total complexity for n elements: ``O(nlog2(n))``
 
-The implementation is as shown in ...
+The implementation is as shown in [here] (https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb)
 
 <hr>
 
