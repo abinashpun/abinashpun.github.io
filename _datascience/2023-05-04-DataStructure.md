@@ -87,7 +87,7 @@ Stack, Queue, and Deque are commonly used **linear (ordered) data strucrues**. T
     - **Pop**: remove the last (top) element
 - Stack overflow: push an item when the stack is full.
 
-The implementation is here in the[link](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
+The implementation is here in the [link](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 ### Applications of Stack
 - Function call
@@ -169,7 +169,7 @@ Every n-degree tree can be transformed into a binary tree by following steps.
 - Perfect/Full binary tree: All level is full (l$^{th}$ level has $2^l$ nodes). A perfect binary tree is a complete binary, but not vice versa. 
 - Skewed binary tree: Every node has either one or zero child.
 
-The implementation of tree is shown here [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb)
+The implementation of tree is shown [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 <hr>
 
