@@ -4,9 +4,6 @@ excerpt: "Notes on Algorithms"
 collection: datascience
 ---
 
-<!-- # <a id="algorithms"></a> Algorithms
-## <a id="algorithm-basics"></a> Algorithm Basics -->
-
 # Recursive Algorithms
 #### Definition
 - An algorithm that calls itself in its definition.
@@ -41,6 +38,7 @@ collection: datascience
 - Check out this [Stack Overflow post](http://stackoverflow.com/questions/19794739/what-is-the-difference-between-iteration-and-recursion) for more info.
 
 #### Pseudo Code of Moving Through an Array
+
 ```
 Recursion                         | Iteration
 ----------------------------------|----------------------------------
