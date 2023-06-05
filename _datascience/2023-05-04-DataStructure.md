@@ -177,7 +177,7 @@ The implementation of tree is as shown here ......
 
 # Heap
 A heap is a complete binary tree, 
-where every parent has a key greater than or equal to (max heap) or less than or equal to (min heap) its child's key. 
+where every parent has a key either greater than or equal to (**max heap**) or less than or equal to (**min heap**) its child's key. 
 
 ### Properties
 - Height of a heap with n nodes: ``log2(n)+1``
@@ -204,7 +204,7 @@ For n elements,
 1. Add elements with upheap 
 2. Delete and pop element with downheap. Popped element is saved to the sorted array
 
-#### Time complexity:
+### Time complexity:
 For each element, maximum number of upheap or downheap operation is equal to the tree height, ``O(log2(n))``
 Total complexity for n elements: ``O(nlog2(n))``
 
