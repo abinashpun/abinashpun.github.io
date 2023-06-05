@@ -214,10 +214,10 @@ The implementation is as shown in ...
 
 # Hash Table or Hash Map
 ## Definition
-- Stores data with key value pairs.
+- Stores data with **key value pairs**.
 - Hash functions accept a key and return an output unique only to that specific key.
     - This is known as hashing, which is the concept that an input and an output have a one-to-one correspondence to map information.
-    - Hash functions return a unique address in memory for that data.
+    - **Hash functions return a unique address in memory for that data**.
 
 ## What you need to know
 - Designed to optimize searching, insertion, and deletion.
