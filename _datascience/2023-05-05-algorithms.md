@@ -91,6 +91,8 @@ This algorithm never needed to compare all the differences to one another, savin
   - While doing this it tracks the children nodes of the nodes on the current level.
   - When finished examining a level it moves to the left most node on the next level.
   - The bottom-right most node is evaluated last (the node that is deepest and is farthest right of it's level).
+- Level order traversal: Start from the root, scan all nodes in a level, then move to the next level, and iterate this process.
+- Implementation: Queue (children should wait until all of their parent and its sibling(s) is popped out, see the code below)
 
 ### What you need to know
 - Optimal for searching a tree that is wider than it is deep.
@@ -103,7 +105,7 @@ This algorithm never needed to compare all the differences to one another, savin
 - ``E ``is number of edges
 - ``V`` is number of vertices
 
-The implementation is here .............
+The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 ## Depth First Search (DFS)
 ### Definition
@@ -112,6 +114,11 @@ The implementation is here .............
   - Once it reaches the end of a branch it traverses back up trying the right child of nodes on that branch, and if possible left from the right children.
   - When finished examining a branch it moves to the node right of the root then tries to go left on all it's children until it reaches the bottom.
   - The right most node is evaluated last (the node that is right of all it's ancestors).
+- Variation
+    - Pre-order traversal: Self->Left child->Right child
+    - In-order traversal: Left child->Self->Right child
+    - Post-order traversal: Left child->Right child->Self
+- Implementation: Recursive algorithm (see the code below) or Stack (The deeper the node, the closer to the top in a stack. Then once the deepest node is searched, it is popped out.
 
 ### What you need to know
 - Optimal for searching a tree that is deeper than it is wide.
@@ -124,7 +131,7 @@ The implementation is here .............
 - ``E`` is number of edges
 - ``V`` is number of vertices
 
-The implementation is here ........
+The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 ### Breadth First Search Vs. Depth First Search
 - The simple answer to this question is that it depends on the size and shape of the tree.
