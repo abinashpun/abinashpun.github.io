@@ -95,11 +95,11 @@ This algorithm never needed to compare all the differences to one another, savin
 ### What you need to know
 - Optimal for searching a tree that is wider than it is deep.
 - Uses a queue to store information about the tree while it traverses a tree.
-  - Because it uses a queue it is more memory intensive than **depth first search**.
+  - Because it uses a queue it is **more memory intensive than depth first search**.
   - The queue uses more memory because it needs to stores pointers
 
 ### Time Complexity
-- Search: Breadth First Search: O(V + E)
+- Search: Breadth First Search: ``O(V + E)``
 - E is number of edges
 - V is number of vertices
 
