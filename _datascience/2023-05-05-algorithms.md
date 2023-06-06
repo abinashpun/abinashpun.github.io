@@ -118,7 +118,7 @@ The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blo
     - Pre-order traversal: Self &rarr Left child &rarr Right child
     - In-order traversal: Left child &rarr Self &rarr Right child
     - Post-order traversal: Left child &rarr Right child &rarr Self
-- Implementation: Recursive algorithm (see the code below) or Stack (The deeper the node, the closer to the top in a stack. Then once the deepest node is searched, it is popped out.
+- Implementation: Recursive algorithm  or Stack (The deeper the node, the closer to the top in a stack. Then once the deepest node is searched, it is popped out).
 
 ### What you need to know
 - Optimal for searching a tree that is deeper than it is wide.
