@@ -115,9 +115,9 @@ The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blo
   - When finished examining a branch it moves to the node right of the root then tries to go left on all it's children until it reaches the bottom.
   - The right most node is evaluated last (the node that is right of all it's ancestors).
 - Variation
-    - Pre-order traversal: Self->Left child->Right child
-    - In-order traversal: Left child->Self->Right child
-    - Post-order traversal: Left child->Right child->Self
+    - Pre-order traversal: Self &rarr Left child &rarr Right child
+    - In-order traversal: Left child &rarr Self &rarr Right child
+    - Post-order traversal: Left child &rarr Right child &rarr Self
 - Implementation: Recursive algorithm (see the code below) or Stack (The deeper the node, the closer to the top in a stack. Then once the deepest node is searched, it is popped out.
 
 ### What you need to know
