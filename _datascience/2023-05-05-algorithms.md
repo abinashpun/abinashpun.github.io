@@ -163,7 +163,7 @@ Compare two adjacent elements then sort these two.
 Iterate this process side by side until the end of the array, 
 then iterate again from the beginning until all elements are sorted.
 
-#### Visualization
+### Visualization
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//datascience_files/bubblesort.gif">
 </p>
