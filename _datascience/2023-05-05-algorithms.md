@@ -100,8 +100,8 @@ This algorithm never needed to compare all the differences to one another, savin
 
 ### Time Complexity
 - Search: Breadth First Search: ``O(V + E)``
-- E is number of edges
-- V is number of vertices
+- ``E ``is number of edges
+- ``V`` is number of vertices
 
 The implementation is here .............
 
@@ -121,8 +121,8 @@ The implementation is here .............
 
 ### Time Complexity
 - Search: Depth First Search: ``O(|E| + |V|)``
-- E is number of edges
-- V is number of vertices
+- ``E`` is number of edges
+- ``V`` is number of vertices
 
 The implementation is here ........
 
