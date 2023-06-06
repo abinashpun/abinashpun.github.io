@@ -120,7 +120,7 @@ The implementation is here .............
   - Once it cannot go further left it begins evaluating the stack.
 
 ### Time Complexity
-- Search: Depth First Search: ``$O(\|E\| + \|V\|)$``
+- Search: Depth First Search: ``O(|E| + |V|)``
 - E is number of edges
 - V is number of vertices
 
