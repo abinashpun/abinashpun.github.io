@@ -56,11 +56,11 @@ recursive method (array, n)       | iterative method (array)
 ## Definition
 - An algorithm that, while executing, selects only the information that meets a certain criteria.
 - The general five components, taken from [Wikipedia](http://en.wikipedia.org/wiki/Greedy_algorithm#Specifics):
-  - A candidate set, from which a solution is created.
-  - A selection function, which chooses the best candidate to be added to the solution.
-  - A feasibility function, that is used to determine if a candidate can be used to contribute to a solution.
-  - An objective function, which assigns a value to a solution, or a partial solution.
-  - A solution function, which will indicate when we have discovered a complete solution.
+  - A **candidate set**, from which a solution is created.
+  - A **selection function**, which chooses the best candidate to be added to the solution.
+  - A **feasibility function**, that is used to determine if a candidate can be used to contribute to a solution.
+  - An **objective function**, which assigns a value to a solution, or a partial solution.
+  - A **solution function**, which will indicate when we have discovered a complete solution.
 
 ## What you need to know
 - Used to find the expedient, though non-optimal, solution for a given problem.
