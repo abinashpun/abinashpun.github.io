@@ -9,6 +9,9 @@ main:
   - title: "Data Science"
     url: /datascience/
         
+  - title: "Computer Science"
+    url: /computerscience/
+        
   - title: "Talks"
     url: /talks/    
 

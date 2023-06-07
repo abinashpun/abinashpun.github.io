@@ -192,6 +192,10 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+  computerscience:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -206,6 +210,7 @@ defaults:
       comments: true
       share: true
       related: true
+  
   # _pages
   - scope:
       path: ""
@@ -257,6 +262,17 @@ defaults:
       layout: single
       author_profile: true
       share: true
+
+ # _computerscience
+  - scope:
+      path: ""
+      type: coomputerscience
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+
 
 # Sass/SCSS
 sass:
