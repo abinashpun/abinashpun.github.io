@@ -3,14 +3,15 @@ main:
   - title: "CV"
     url: /cv/
 
+  - title: "Data Science"
+    url: /datascience/
+
   - title: "Talks"
     url: /talks/    
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Data Science"
-    url: /datascience/
 
  # - title: "Teaching"
  #   url: /teaching/    
