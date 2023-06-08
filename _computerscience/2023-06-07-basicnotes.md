@@ -18,5 +18,5 @@ Here are some slides for some topics.
 - [Parallel Programming-  The OpenMP Common Core](https://github.com/abinashpun/ParProgForPhys)
 
 
- # Resource
+# Resource
  - (CODAS-HEP 2022)[https://indico.cern.ch/event/1151367/timetable/]
