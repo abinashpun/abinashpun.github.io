@@ -1,7 +1,7 @@
 ---
 title: "Data Structure"
 excerpt: "Notes on Data Structure"
-collection: datascience
+collection: computerscience
 ---
 # Array
 - A set of an index and value pairs. One of the oldest, most commonly used data structures.

@@ -1,5 +1,5 @@
 ---
 title: "Computer Science Basics for Programmers"
 excerpt: "Notes on Computer Science"
-collection: computer Science
+collection: computerscience
 ---

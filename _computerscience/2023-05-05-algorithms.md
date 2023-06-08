@@ -1,7 +1,7 @@
 ---
 title: "Algorithms"
 excerpt: "Notes on Algorithms"
-collection: datascience
+collection: computerscience
 ---
 
 # Recursive Algorithms
