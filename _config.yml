@@ -266,7 +266,7 @@ defaults:
  # _computerscience
   - scope:
       path: ""
-      type: coomputerscience
+      type: computerscience
     values:
       layout: single
       author_profile: true
