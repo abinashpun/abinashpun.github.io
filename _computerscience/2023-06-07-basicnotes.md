@@ -19,4 +19,4 @@ Here are some slides for some topics.
 
 
 # Resource
- - (CODAS-HEP 2022)[https://indico.cern.ch/event/1151367/timetable/]
+ - [CODAS-HEP 2022](https://indico.cern.ch/event/1151367/timetable/)
