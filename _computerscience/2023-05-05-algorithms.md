@@ -197,7 +197,7 @@ then iterate again from the beginning until all elements are sorted.
 [(source: Wikipedia, _Selection Sort_)](https://en.wikipedia.org/wiki/Selection_sort)
 
 
-The implementation is here .................
+The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 
 ## Insertion Sort
@@ -225,7 +225,7 @@ The implementation is here .................
 
 [(source: Wikipedia, _Insertion Sort_)](https://en.wikipedia.org/wiki/Insertion_sort)
 
-The implementation is here .................
+The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 # Merge Sort
 ### Definition
@@ -251,7 +251,7 @@ The implementation is here .................
 <img src="{{ site.url }}{{ site.baseurl }}//datascience_files/mergesort.gif">
 </p>
 
-The implementation is here .................
+The implementation is [here](https://github.com/abinashpun/DataScience_Notes/blob/main/DS_Algo_implementation.ipynb).
 
 ## Quick sort
 ### Definition
