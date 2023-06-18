@@ -28,6 +28,7 @@ The $J/\psi$ particle is unstable and quickly decays into lighter particles.  It
 <p align = "center">
 Fig.1 - Steps of predicting background underneath a peak signal with GPR trained with sidebands 
 </p>
+</p>
 
 ## Take two Side Bands from either sides of $J/\Psi$ peak 
 The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.  
@@ -52,11 +53,13 @@ The background underneath the signal is mostly from the another physics process 
 <p align = "center">
 Fig.2 - Drell-Yan mass spectrum (at low xF) at peak signal region is properly predicted by GPR
 </p>
+</p>
 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gmc_low_xF_gpr.png">
 <p align = "center">
 Fig.3 - Drell-Yan mass spectrum (at low xF) at peak signal region is properly predicted by GPR
+</p>
 </p>
 
 # Outlook
