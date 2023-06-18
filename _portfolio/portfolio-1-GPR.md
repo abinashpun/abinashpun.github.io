@@ -29,6 +29,7 @@ The $J/\psi$ particle is unstable and quickly decays into lighter particles.  It
 </p>
 
 ## Take two Side Bands from either sides of $J/\Psi$ peak 
+The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.  
 ## Fit GPR with Side Band Data
 ```python 
 from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
@@ -38,8 +39,12 @@ gaussian_process.fit(np.atleast_2d(X_train).T, Y_train)
 
 ```
 ## Predict the background underneath the peak with GPR
+```python
+Y_pred, cov_matrix = gaussian_process.predict(np.atleast_2d(data[:, 0]).T, return_cov=True)
+```
 
 # Sanity Check with MonteCarlo 
+The background underneath the signal is mostly from the another physics process called Drell-Yan. For the sanity check of our method, Drell-Yann dimuon mass spectrum at different kinematics are tested using GPR method with same side bands. The GPR was able to predict the shape and magnitude of the Drell-Yan mass spectrum in the peak region as shown in Figures. 
 
 # Conclusion
 
