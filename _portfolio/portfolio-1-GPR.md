@@ -6,7 +6,6 @@ collection: portfolio
 ---
 
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
--
 <!-- under development -->
 
 # Introduction
@@ -26,6 +25,8 @@ The $J/\psi$ particle is unstable and quickly decays into lighter particles.  It
 # Analysis Steps
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gpr_intro.png">
+<p align = "center">
+Fig.1 - Steps of predicting background underneath a peak signal with GPR trained with sidebands 
 </p>
 
 ## Take two Side Bands from either sides of $J/\Psi$ peak 
