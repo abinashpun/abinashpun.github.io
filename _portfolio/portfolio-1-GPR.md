@@ -18,9 +18,9 @@ Gaussian Process Regression (GPR) is a powerful statistical modeling technique u
 In GPR, the underlying assumption is that the data points are drawn from a Gaussian process, which is a collection of random variables where any finite subset follows a multivariate Gaussian distribution. This makes GPR a flexible and versatile method for modeling various types of data. The key idea behind GPR is to model the relationship between input variables (predictors) and output variables (response) as a continuous function. Unlike traditional regression methods that assume a fixed functional form, GPR provides a flexible framework that can adapt to the data by capturing both the mean and uncertainty in the predictions.
 
 ## Peak Signal and Background
-<!-- <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}//datascience_files/mergesort.gif">
-</p> -->
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gpr_intro.png">
+</p>
 
 # Data Set
 
