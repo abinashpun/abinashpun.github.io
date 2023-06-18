@@ -47,6 +47,21 @@ Y_pred, cov_matrix = gaussian_process.predict(np.atleast_2d(data[:, 0]).T, retur
 # Sanity Check with MonteCarlo 
 The background underneath the signal is mostly from the another physics process called Drell-Yan. For the sanity check of our method, Drell-Yann dimuon mass spectrum at different kinematics are tested using GPR method with same side bands. The GPR was able to predict the shape and magnitude of the Drell-Yan mass spectrum in the peak region as shown in Figures. 
 
-# Conclusion
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gmc_high_xF_gpr.png">
+<p align = "center">
+Fig.2 - Drell-Yan mass spectrum (at low xF) at peak signal region is properly predicted by GPR
+</p>
 
-# Reference
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gmc_low_xF_gpr.png">
+<p align = "center">
+Fig.3 - Drell-Yan mass spectrum (at low xF) at peak signal region is properly predicted by GPR
+</p>
+
+# Outlook
+This is work in progress. We will be using GreadSearchCV to get the optimize parameter to finalize the GPR model. This method will be used for the analysis of $J/\psi$  from SeaQuest and SpinQuest experiment at Fermilab.
+
+<!-- # Conclusion
+
+# Reference -->
