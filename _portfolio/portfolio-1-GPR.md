@@ -9,7 +9,7 @@ collection: portfolio
 <!-- under development -->
 
 # Introduction
-This project is about estimating the background in the data with Gaussian Process Regression (GPR) method.
+This project is about estimating the background in the data with Gaussian Process Regression (GPR) method. We intend to use this method in the $J/\psi$ analysis from SeaQuest and SpinQuest experiment. 
 
 ## Gaussian Process Regression
 Gaussian Process Regression (GPR) is a powerful statistical modeling technique used for regression analysis. It is a non-parametric Bayesian approach that can effectively capture complex patterns and relationships in data.
@@ -30,7 +30,7 @@ Fig.1 - Steps of predicting background underneath a peak signal with GPR trained
 </p>
 </p>
 
-## Take two Side Bands from either sides of $J/\Psi$ peak 
+## Take two Side Bands from either sides of $J/\psi$ peak 
 The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.  
 ## Fit GPR with Side Band Data
 ```python 
