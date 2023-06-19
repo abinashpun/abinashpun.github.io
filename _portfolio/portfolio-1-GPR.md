@@ -9,7 +9,7 @@ collection: portfolio
 <!-- under development -->
 
 # Introduction
-This project is about estimating the background in the data with Gaussian Process Regression (GPR) method. We intend to use this method in the $J/\psi$ analysis from SeaQuest and SpinQuest experiment. 
+This project is about estimating the background in the data with Gaussian Process Regression (GPR) method. We intend to use this method in the $J/\psi$ analysis from SeaQuest and SpinQuest experiment at Fermilab. 
 
 ## Gaussian Process Regression
 Gaussian Process Regression (GPR) is a powerful statistical modeling technique used for regression analysis. It is a non-parametric Bayesian approach that can effectively capture complex patterns and relationships in data.
@@ -23,6 +23,8 @@ The $J/\psi$ particle, also known as the $J/\psi$ meson, is a subatomic particle
 The $J/\psi$ particle is unstable and quickly decays into lighter particles.  Its decay modes also include the production of muons and antimuons, a dimuon. We can investigate about the  $J/\psi$ particle by studying the 3.14 dimouns produced at any nuclear experiment. But in such experiments, along with the $J/\psi$ dimuons, many other dimuons from different physics (or non-physics) process can also be prodcued. Thus the underneath the $J/\psi$ peak of the dimuon mass spectrum, there are some background those need to be subtracted. The background might not have any particular shape and might depend on various kinematics. So,we use GPR method to extract such background underneath the peak.
 
 # Analysis Steps
+The dimuon spectrum of total data (toy) is shown in blue histogram of Fig.1. We are interested to extract signal information from peak region.
+
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gpr_intro.png">
 <p align = "center">
@@ -30,9 +32,19 @@ Fig.1 - Steps of predicting background underneath a peak signal with GPR trained
 </p>
 </p>
 
-## Take two Side Bands from either sides of $J/\psi$ peak 
-The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.  
-## Fit GPR with Side Band Data
+1. **Take two Side Bands from either sides of $J/\psi$ peak**
+
+The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. The side bands are shown in red shadow region in Fig.1. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.
+
+1. **Fit GPR with Side Band Data**
+Now the side band data are used to train the GPR model. The Scikit-Learn package is used to implement the GPR method. The kernal used is product of Constant and RBF (Radial Basis Function).<br>
+
+
+<p align="center">
+$K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2}$
+<p>
+
+
 ```python 
 from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
 sideband_kernel = C(50000.0, (1e-10, 1e15))*RBF(length_scale=5, length_scale_bounds=(1e-4, 1e15))
