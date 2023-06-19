@@ -8,7 +8,7 @@ collection: portfolio
 <!-- This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML.  -->
 <!-- under development -->
 
-This project is about estimating the background in the data with Gaussian Process Regression (GPR) method. We intend to use this method in the $J/\psi$ analysis from SeaQuest and SpinQuest experiment at Fermilab. The code framework for the analysis is [here](https://github.com/abinashpun/seaquest-projects/tree/main/jpsi_polarization/GPR_project/notebooks)
+This project is about estimating the background in the data with Gaussian Process Regression (GPR) method. We intend to use this method in the $J/\psi$ analysis from SeaQuest and SpinQuest experiment at Fermilab. The code framework for the analysis is [here](https://github.com/abinashpun/seaquest-projects/tree/main/jpsi_polarization/GPR_project/notebooks).
 
 ## Gaussian Process Regression
 Gaussian Process Regression (GPR) is a powerful statistical modeling technique used for regression analysis. It is a non-parametric Bayesian approach that can effectively capture complex patterns and relationships in data.
@@ -62,7 +62,7 @@ Fig.1 - Steps of predicting background underneath a peak signal with GPR.
      The mean prediction from GPR is as shown in dotted oragne line while the orange shadow shows the 95% confidence interval. Thus predicted background is subtracted from total data to get the desired peak signal data as shown in purple line in the Fig.1. 
 
 # Sanity Check with MonteCarlo 
-The background underneath the signal is mostly from the another physics process called Drell-Yan. For the sanity check of our method, Drell-Yann dimuon mass spectrum at different kinematics are tested using GPR method with same side bands. The GPR was able to predict the shape and magnitude of the Drell-Yan mass spectrum in the peak region as shown in Figures. 
+The background underneath the signal is mostly from the another physics process called Drell-Yan. For the sanity check of our method, Drell-Yann dimuon mass spectrum from MonteCarlo simulation were analyzed at different kinematics. GPR method with same side bands was used for the analysis. The GPR was able to predict (oragne dotted) the shape and magnitude of the Drell-Yan mass spectrum in the peak region as shown in Fig.2 and Fig.3.
 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gmc_high_xF_gpr.png">
@@ -79,7 +79,7 @@ Fig.3 - Drell-Yan mass spectrum (at low xF) at peak signal region is properly pr
 </p>
 
 # Outlook
-This is work in progress. We will be using GreadSearchCV to get the optimize parameter to finalize the GPR model. This method will be used for the analysis of $J/\psi$  from SeaQuest and SpinQuest experiment at Fermilab.
+This is work in progress. We will be using ``GreadSearchCV`` to get the tune the  hyparameters to finalize the GPR model. This method will be used for the analysis of $J/\psi$  from SeaQuest and SpinQuest experiment at Fermilab.
 
 <!-- # Conclusion
 
