@@ -24,7 +24,7 @@ In GPR, the underlying assumption is that the data points are drawn from a Gauss
 
 The $J/\psi$ particle, also known as the $J/\psi$ meson, is a subatomic particle that belongs to the category of mesons with mass 3.14 GeV. Studying the properties and behavior of the $J/\psi$ particle provides valuable insights into the strong nuclear force and the interactions between quarks. It has contributed to our understanding of particle physics, the quark model, and the fundamental building blocks of matter.
 
-The $J/\psi$ particle is unstable and quickly decays into lighter particles.  Its decay modes also include the production of muons and antimuons, a dimuon. We can investigate about the  $J/\psi$ particle by studying the 3.14 dimouns produced at any nuclear experiment. But in such experiments, along with the $J/\psi$ dimuons, many other dimuons from different physics (or non-physics) process can also be prodcued. Thus the underneath the $J/\psi$ peak of the dimuon mass spectrum, there are some background those need to be subtracted. The background might not have any particular shape and might depend on various kinematics. So,we use GPR method to extract such background underneath the peak.
+The $J/\psi$ particle is unstable and quickly decays into lighter particles.  Its decay modes also include the production of muons and antimuons, a dimuon. We can investigate about the  $J/\psi$ particle by studying the 3.14  GeV dimouns produced at any nuclear experiment. But in such experiments, along with the $J/\psi$ dimuons, many other dimuons from different physics (or non-physics) process can also be prodcued. Thus the underneath the $J/\psi$ peak of the dimuon mass spectrum, there are some background those need to be subtracted. The background might not have any particular shape and might depend on various kinematics. So,we use GPR method to extract such background underneath the peak.
 
 # Analysis Steps
 The dimuon spectrum of total data (toy) is shown in blue histogram of Fig.1. We are interested to extract signal information from peak region.
@@ -41,7 +41,8 @@ Fig.1 - Steps of predicting background underneath a peak signal with GPR.
     The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. The side bands are shown in red shadow region in Fig.1. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.
 
 1. **Fit GPR with Side Band Data**
-    Now the side band data are used to train the GPR model. The Scikit-Learn package is used to implement the GPR method. The kernal used is product of Constant and RBF (Radial Basis Function).<br>
+    
+    Now the side bands' data are used to train the GPR model. The Scikit-Learn package is used to implement the GPR method. The kernal used is product of Constant and RBF (Radial Basis Function).<br>
 
 
     <p align="center">
