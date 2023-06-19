@@ -28,7 +28,7 @@ The dimuon spectrum of total data (toy) is shown in blue histogram of Fig.1. We 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/gpr_intro.png">
 <p align = "center">
-Fig.1 - Steps of predicting background underneath a peak signal with GPR trained with sidebands 
+Fig.1 - Steps of predicting background underneath a peak signal with GPR.
 </p>
 </p>
 
@@ -42,7 +42,7 @@ Now the side band data are used to train the GPR model. The Scikit-Learn package
 
 <p align="center">
 $K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2}$
-<p>
+</p>
 
 
 ```python 
