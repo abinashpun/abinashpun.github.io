@@ -2,6 +2,11 @@
 title: "Estimating Background with GPR"
 excerpt: "Description on using Gaussian Process Regression to estimate background under the peak signal"
 collection: portfolio
+tags:
+  - Gausian Process Regression
+  - GPR
+  - Side Band Method
+  - Background Prediction 
 ---
 
 
