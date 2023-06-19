@@ -41,7 +41,7 @@ Now the side band data are used to train the GPR model. The Scikit-Learn package
 
 
 <p align="center">
-$K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2}$
+$K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2})$
 </p>
 
 
