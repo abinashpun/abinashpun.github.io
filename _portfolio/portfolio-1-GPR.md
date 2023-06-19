@@ -34,29 +34,30 @@ Fig.1 - Steps of predicting background underneath a peak signal with GPR.
 
 1. **Take two Side Bands from either sides of $J/\psi$ peak**
 
-The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. The side bands are shown in red shadow region in Fig.1. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.
+    The two side bands, [1.8, 2.5] GeV and [4.5, 7.] GeV, are taken to train the GPR. The side bands are shown in red shadow region in Fig.1. We should make sure that these side bands don't contain any signal we are interested i.e. from $J/\psi$. One should keep in mind of the detector resolution and reconstruction performance before choosing such side bands.
 
 1. **Fit GPR with Side Band Data**
 Now the side band data are used to train the GPR model. The Scikit-Learn package is used to implement the GPR method. The kernal used is product of Constant and RBF (Radial Basis Function).<br>
 
 
-<p align="center">
-$K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2})$
-</p>
+    <p align="center">
+    $K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2})$
+    </p>
 
-where $l$ is length scale and $d(.,.)$ is ecludian distance.
+    where $l$ is length scale and $d(.,.)$ is ecludian distance.
 
-```python 
-from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
-sideband_kernel = C(50000.0, (1e-10, 1e15))*RBF(length_scale=5, length_scale_bounds=(1e-4, 1e15))
-gaussian_process = GaussianProcessRegressor(kernel=sideband_kernel, alpha=Y_train_error**2, n_restarts_optimizer=5000)
-gaussian_process.fit(np.atleast_2d(X_train).T, Y_train)
+    ```python 
+    from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
+    sideband_kernel = C(50000.0, (1e-10, 1e15))*RBF(length_scale=5, length_scale_bounds=(1e-4, 1e15))
+    gaussian_process = GaussianProcessRegressor(kernel=sideband_kernel, alpha=Y_train_error**2, n_restarts_optimizer=5000)
+    gaussian_process.fit(np.atleast_2d(X_train).T, Y_train)
 
-```
-## Predict the background underneath the peak with GPR
-```python
-Y_pred, cov_matrix = gaussian_process.predict(np.atleast_2d(data[:, 0]).T, return_cov=True)
-```
+    ```
+
+1. Predict the background underneath the peak with GPR
+    ```python
+    Y_pred, cov_matrix = gaussian_process.predict(np.atleast_2d(data[:, 0]).T, return_cov=True)
+    ```
 
 # Sanity Check with MonteCarlo 
 The background underneath the signal is mostly from the another physics process called Drell-Yan. For the sanity check of our method, Drell-Yann dimuon mass spectrum at different kinematics are tested using GPR method with same side bands. The GPR was able to predict the shape and magnitude of the Drell-Yan mass spectrum in the peak region as shown in Figures. 
