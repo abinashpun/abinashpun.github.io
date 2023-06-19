@@ -88,6 +88,8 @@ Fig.3 - Drell-Yan mass spectrum (at low xF) at peak signal region is properly pr
 The ``GreadSearchCV`` to get the tune the  hyparameters to finalize the GPR model. This method will be used for the analysis of $J/\psi$  from SeaQuest and SpinQuest experiment at Fermilab.
 
 # Reference
+1. [Scikit Learn Gausssian Process Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html)
+1. [Phys. Rev. Lett., 33:1404-1406](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.33.1404)
 1. [Gaussian Processes: From the Basics to the State-of-the-Art](http://cbl.eng.cam.ac.uk/pub/Public/Turner/News/imperial-gp-tutorial.pdf)
 1. [ML Video Tutorial: Gaussian Process (Richard Turner)](https://www.youtube.com/watch?v=92-98SYOdlY)
 1. [A Visual Exploration of Gaussian Process](https://distill.pub/2019/visual-exploration-gaussian-processes/)
