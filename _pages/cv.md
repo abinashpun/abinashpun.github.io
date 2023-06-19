@@ -146,7 +146,7 @@ Collaborations
 * SpinQuest (Experiment at Fermilab)
 * SeaQuest (Future Experiment at Fermilab)
 * PHENIX (Experiment at Brookhaven National Lab)
-* sPHENIX (Future Experiment at Brookhaven National Lab)
+* sPHENIX (Experiment at Brookhaven National Lab)
 
 Professional Memberships
 ======
@@ -158,5 +158,5 @@ Honors and Awards
 ======
 * Ranked among top 5% in my M. Sc. class, Tribhuvan Univ. 2012
 * Dean’s Merit Scholarship, Institute of Science and Technology, Tribhuvan Univ. 2011
-* Ranked 7th among +1000 test-takers in the qualifying examination of the M.Sc. program in Physics 2010
+* Ranked 7th among 1000+ test-takers in the qualifying examination of the M.Sc. program in Physics 2010
 * Dean’s Merit Scholarship, Tri-Chandra Multiple Campus, Tribhuvan Univ. 2006 - 2009
