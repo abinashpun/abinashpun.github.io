@@ -44,6 +44,7 @@ Now the side band data are used to train the GPR model. The Scikit-Learn package
 $K(x_i, x_j) = exp(\frac{d(x_i,x_j)^2}{2l^2})$
 </p>
 
+where $l$ is length scale and $d(.,.)$ is ecludian distance.
 
 ```python 
 from sklearn.gaussian_process.kernels import RBF, ConstantKernel as C
