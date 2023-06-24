@@ -113,7 +113,7 @@ Fig. 6: Comparison of difference between truth and predicted X-, Y- and Z- from 
 </p>
 </p>
 
-From the result, we can clearly see that the ML method clearly outperforms to find the position (both mean and width of difference).
+From the result, we can see that the ML method clearly outperforms to find the position (both mean and width of difference).
 
 # Outlook
 
