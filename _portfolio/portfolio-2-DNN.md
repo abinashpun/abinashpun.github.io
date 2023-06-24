@@ -60,28 +60,17 @@ The dataset is splitted into train:validation:test sets with ratio 60:40:40. The
 <img src="https://github.com/abinashpun/abinashpun.github.io/blob/master/portfolio_files/cls-loss.png" width="425"/> <img src="https://github.com/abinashpun/abinashpun.github.io/blob/master/portfolio_files/reg-loss.png" width="425"/>  -->
 
 <p align="center">
-  <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="45%" height="350">
-&nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="45%" height="450">
-</p>
-
-<!-- <p float="left">
-  <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="425"/>
-  <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="425"/>
-</p> -->
-
-<!-- <div style="display:flex">
-     <div style="flex:1;padding-right:10px;">
-          <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="425"/>
-     </div>
-     <div style="flex:1;padding-left:10px;">
-          <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="425"/>
-     </div>
-</div> -->
-
+  <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" >
 <p align = "center">
 Fig.
 </p>
+</p>
+
+<p align = "center">
+  <img alt="Dark" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" >
+</p>
+
+
 
 
 
@@ -91,14 +80,19 @@ The ROC-curves and confusion matrix for the classification layer with test set i
 
 <!-- 
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png" width="425"/>  -->
-<p float="left">
+<!-- <p float="left">
   <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc-curve.png" width="425"/>
   <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-cm.png" width="425"/>
+</p> -->
+
+
+<p align="center">
+  <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc-curve.png" >
 </p>
 
 
-<p align = "center">
-Fig.
+<p align="center">
+  <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-cm.png" >
 </p>
 
 
