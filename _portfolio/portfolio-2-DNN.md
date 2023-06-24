@@ -56,24 +56,24 @@ After the classification layer, a regression layer is implemented to predict the
 
 The dataset is splitted into train:validation:test sets with ratio 60:40:40. The accuracy and loss from the classification layers as a funtion of epoch is as shown in Fig. 2, while for the regression layer is shown in Fig. 3. 
 
-<p align="center">
+
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png"" width="425"/> 
 <p align = "center">
 Fig.
 </p>
-</p>
+
 
 
 # Results and Conclusion
 
 The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4.
 
-<p align="center">
+
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png"" width="425"/> 
 <p align = "center">
 Fig.
 </p>
-</p>
+
 
 The resolution of the (X,Y,Z) interaction vertices from the ML method compared to conventional kalman-filter based vertexing algorithm is as shown in Fig.
 
