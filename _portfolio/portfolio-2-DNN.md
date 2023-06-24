@@ -62,7 +62,7 @@ The dataset is splitted into train:validation:test sets with ratio 60:40:40. The
 <p align="center">
   <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="45%" height="350">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="Dark" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="45%" height="350">
+  <img alt="Dark" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="45%" height="450">
 </p>
 
 <!-- <p float="left">
