@@ -54,7 +54,7 @@ After the classification layer, a regression layer is implemented to predict the
 
 # Analysis
 
-The dataset is splitted into train:validation:test sets with ratio 60:40:40. The accuracy and loss from the classification layers as a funtion of epoch is as shown in Fig. 2, while for the regression layer is shown in Fig. 3. 
+The dataset is splitted into train:validation:test sets with ratio 60:40:40. The accuracy and loss from the classification layers as a funtion of epoch is as shown in Fig. 2, while for the regression layer is shown in Fig. 2. 
 
 <!-- 
 <img src="https://github.com/abinashpun/abinashpun.github.io/blob/master/portfolio_files/cls-loss.png" width="425"/> <img src="https://github.com/abinashpun/abinashpun.github.io/blob/master/portfolio_files/reg-loss.png" width="425"/>  -->
@@ -62,15 +62,16 @@ The dataset is splitted into train:validation:test sets with ratio 60:40:40. The
 <p align="center">
   <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" >
 <p align = "center">
-Fig.
+Fig. 2: Loss and Accuracy for the Classificatin part
 </p>
 </p>
 
 <p align = "center">
   <img alt="Dark" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" >
+<p align = "center">
+Fig. 3: Loss for the Regression part
 </p>
-
-
+</p>
 
 
 
@@ -78,21 +79,22 @@ Fig.
 
 The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4.
 
-<!-- 
-<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png" width="425"/>  -->
-<!-- <p float="left">
-  <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc-curve.png" width="425"/>
-  <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-cm.png" width="425"/>
-</p> -->
+
 
 
 <p align="center">
   <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc-curve.png" >
+<p align = "center">
+Fig. 4: ROC curve for test set in Classificatin part
+</p>
 </p>
 
 
 <p align="center">
   <img alt="Light" src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-cm.png" >
+<p align = "center">
+Fig. 5: Confusion Matrix for test set in Classificatin part
+</p>
 </p>
 
 
@@ -108,6 +110,9 @@ The resolution of the (X,Y,Z) interaction vertices from the ML method compared t
 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/Z-Resolution.png">
+<p align = "center">
+Fig. 6: Comparison of difference between truth and predicted X-, Y- and Z- from ML method and those from conventional Kalman Filter method.
+</p>
 </p>
 
 From the result, we can clearly see that the ML method clearly outperforms to find the position (both mean and width of difference).
