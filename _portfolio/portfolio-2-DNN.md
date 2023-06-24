@@ -83,8 +83,13 @@ Fig.
 
 The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4.
 
+<!-- 
+<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png" width="425"/>  -->
+<p float="left">
+  <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc-curve.png" width="425"/>
+  <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-cm.png" width="425"/>
+</p>
 
-<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png" width="425"/> 
 
 <p align = "center">
 Fig.
