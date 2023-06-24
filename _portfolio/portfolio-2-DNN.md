@@ -77,9 +77,7 @@ Fig. 3: Loss for the Regression part
 
 # Results and Conclusion
 
-The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4.
-
-
+The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4 and Fig. 5 respectively.
 
 
 <p align="center">
@@ -98,7 +96,7 @@ Fig. 5: Confusion Matrix for test set in Classificatin part
 </p>
 
 
-The resolution of the (X,Y,Z) interaction vertices from the ML method compared to conventional kalman-filter based vertexing algorithm is as shown in Fig. 
+The resolution of the (X,Y,Z) interaction vertices from the ML method compared to conventional kalman-filter based vertexing algorithm are as shown in figures below.
 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/X - Resolution.png">
