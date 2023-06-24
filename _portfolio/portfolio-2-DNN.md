@@ -19,6 +19,7 @@ A solid iron beam dump, approximately 5 meters in length (referred to as FMAG), 
 <p align = "center">
 Fig.1 - Beam line volumes in SpinQuest Experiment.
 </p>
+</p>
 
 # Data 
 
@@ -60,6 +61,7 @@ The dataset is splitted into train:validation:test sets with ratio 60:40:40. The
 <p align = "center">
 Fig.
 </p>
+</p>
 
 
 # Results and Conclusion
@@ -70,6 +72,7 @@ The ROC-curves and confusion matrix for the classification layer with test set i
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png"" width="425"/> 
 <p align = "center">
 Fig.
+</p>
 </p>
 
 The resolution of the (X,Y,Z) interaction vertices from the ML method compared to conventional kalman-filter based vertexing algorithm is as shown in Fig.
