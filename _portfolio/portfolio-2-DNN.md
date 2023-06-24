@@ -1,5 +1,5 @@
 ---
-title: "Interacition Vertex with Deep Neural Network"
+title: "Interaction Vertex with Deep Neural Network"
 excerpt: "Implementing Deep Neural Network to predict the interaction vertex of tracks in SpinQuest Experiment"
 collection: portfolio
 tags:
