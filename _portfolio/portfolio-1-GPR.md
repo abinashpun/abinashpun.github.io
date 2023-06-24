@@ -15,16 +15,19 @@ tags:
 
 This project is about estimating the background in the data with Gaussian Process Regression (GPR) method. We intend to use this method in the $J/\psi$ analysis from SeaQuest and SpinQuest experiment at Fermilab. The code framework for the analysis is located in one of my [GitHub repository](https://github.com/abinashpun/seaquest-projects/tree/main/jpsi_polarization/GPR_project/notebooks).
 
-## Gaussian Process Regression
+# Gaussian Process Regression
 Gaussian Process Regression (GPR) is a powerful statistical modeling technique used for regression analysis. It is a non-parametric Bayesian approach that can effectively capture complex patterns and relationships in data.
 
 In GPR, the underlying assumption is that the data points are drawn from a Gaussian process, which is a collection of random variables where any finite subset follows a multivariate Gaussian distribution. This makes GPR a flexible and versatile method for modeling various types of data. The key idea behind GPR is to model the relationship between input variables (predictors) and output variables (response) as a continuous function. Unlike traditional regression methods that assume a fixed functional form, GPR provides a flexible framework that can adapt to the data by capturing both the mean and uncertainty in the predictions.
 
-## Peak Signal and Background
+# Peak Signal and Background
 
 The $J/\psi$ particle, also known as the $J/\psi$ meson, is a subatomic particle that belongs to the category of mesons with mass 3.14 GeV. Studying the properties and behavior of the $J/\psi$ particle provides valuable insights into the strong nuclear force and the interactions between quarks. It has contributed to our understanding of particle physics, the quark model, and the fundamental building blocks of matter.
 
 The $J/\psi$ particle is unstable and quickly decays into lighter particles.  Its decay modes also include the production of muons and antimuons, a dimuon. We can investigate about the  $J/\psi$ particle by studying the 3.14  GeV dimouns produced at any nuclear experiment. But in such experiments, along with the $J/\psi$ dimuons, many other dimuons from different physics (or non-physics) process can also be prodcued. Thus the underneath the $J/\psi$ peak of the dimuon mass spectrum, there are some background those need to be subtracted. The background might not have any particular shape and might depend on various kinematics. So,we use GPR method to extract such background underneath the peak.
+
+# Data
+Toy (unlabeled) data and MonteCarlo Simulated data from SeaQuest Experiment at Fermilab is used for the analysis.
 
 # Analysis Steps
 The dimuon spectrum of total data (toy) is shown in blue histogram of Fig.1. We are interested to extract signal information from peak region.
