@@ -23,7 +23,7 @@ Fig.1 - Beam line volumes in SpinQuest Experiment.
 
 # Data 
 
-Monte Carlo simulated Raw data for SpinQUestt was used for the analysis. Raw data contains `~200k` Drell-Yan events with $\mu^{+/-}$ particles' information. The structure of the input data is;
+Monte Carlo simulated Raw data for SpinQuest was used for the analysis. Raw data contains `~200k` Drell-Yan events with $\mu^{+/-}$ particles' information. The structure of the input data is;
 
 ```
 X = [charge, station1[x, y, z], station1[x, y, z], station3[px, py, pz], station3[px, py, pz]]
@@ -57,7 +57,19 @@ After the classification layer, a regression layer is implemented to predict the
 The dataset is splitted into train:validation:test sets with ratio 60:40:40. The accuracy and loss from the classification layers as a funtion of epoch is as shown in Fig. 2, while for the regression layer is shown in Fig. 3. 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png"" width="425"/> 
+<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="425"/> 
+
+<!-- <div style="display:flex">
+     <div style="flex:1;padding-right:10px;">
+          <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls-loss.png" width="425"/>
+     </div>
+     <div style="flex:1;padding-left:10px;">
+          <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/reg-loss.png" width="425"/>
+     </div>
+</div> -->
+
+
+
 <p align = "center">
 Fig.
 </p>
@@ -69,7 +81,7 @@ Fig.
 The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4.
 
 
-<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png"" width="425"/> 
+<img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/roc_curve.png" width="425"/> <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/cls_cm.png" width="425"/> 
 <p align = "center">
 Fig.
 </p>
