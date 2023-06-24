@@ -96,9 +96,7 @@ The ROC-curves and confusion matrix for the classification layer with test set i
 </p>
 
 
-The resolution of the (X,Y,Z) interaction vertices from the ML method compared to conventional kalman-filter based vertexing algorithm is as shown in Fig.
-
-From the result, we can clearly see that the ML method clearly outperforms to find the position (both mean and width of difference).
+The resolution of the (X,Y,Z) interaction vertices from the ML method compared to conventional kalman-filter based vertexing algorithm is as shown in Fig. 
 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/X - Resolution.png">
@@ -111,6 +109,8 @@ From the result, we can clearly see that the ML method clearly outperforms to fi
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}//portfolio_files/Z-Resolution.png">
 </p>
+
+From the result, we can clearly see that the ML method clearly outperforms to find the position (both mean and width of difference).
 
 # Outlook
 
