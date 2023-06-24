@@ -21,7 +21,9 @@ Fig.1 - Beam line volumes in SpinQuest Experiment.
 </p>
 
 # Data 
+
 Monte Carlo simulated Raw data for SpinQUestt was used for the analysis. Raw data contains `~200k` Drell-Yan events with $\mu^{+/-}$ particles' information. The structure of the input data is;
+
 ```
 X = [charge, station1[x, y, z], station1[x, y, z], station3[px, py, pz], station3[px, py, pz]]
 y = [vertex[x, y, z, px, py, pz]]
@@ -37,8 +39,8 @@ y = [vertex[x, y, z, px, py, pz]]
 * * * * * *     * CrossEntropyLoss          *     * MSELoss                   *     * * * * * *
                 * Adam optimizer            *     * Adam optimizer            *
                 * * * * * * * * * * * * * * *     * * * * * * * * * * * * * * *
-
 ```
+
 The Neural Network architecture includes a classification layer and a regression layer. The classification layer is designed to predict the region of interaction, which includes the collimator, air between the collimator and target, target, air between the target and FMAG, and FMAG. 
 - 0: Collimater
 - 1: Air between collimator and target
@@ -61,6 +63,7 @@ Fig.
 
 
 # Results and Conclusion
+
 The ROC-curves and confusion matrix for the classification layer with test set is as shown in Fig. 4.
 
 <p align="center">
@@ -74,6 +77,7 @@ The resolution of the (X,Y,Z) interaction vertices from the ML method compared t
 From the result, we can clearly see that the ML method clearly outperforms to find the position (both mean and width of difference).
 
 # Outlook
+
 The study can be extended to analyze more realistic data with embedding of hits. 
 
 
