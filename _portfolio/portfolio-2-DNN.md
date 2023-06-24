@@ -107,7 +107,7 @@ The resolution of the (X,Y,Z) interaction vertices from the ML method compared t
 From the result, we can clearly see that the ML method clearly outperforms to find the position (both mean and width of difference).
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}//X-Resolution.png">
+<img src="{{ site.url }}{{ site.baseurl }}//X - Resolution.png">
 </p>
 
 <p align="center">
