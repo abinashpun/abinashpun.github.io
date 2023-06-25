@@ -49,7 +49,7 @@ The Neural Network architecture includes a classification layer and a regression
 - 3: Air between target and FMAG
 - 4: FMAG
 
-The shielding is not considered as it contains a whole large enough not to generate any interaction which can be detected in spectrometers.
+The shielding is not considered as it contains a hole large enough not to generate any interaction which can be detected in spectrometers.
 
 After the classification layer, a regression layer is implemented to predict the position (X, Y, Z) of the interaction. The overall architecture of the neural network is depicted as shown above.
 
