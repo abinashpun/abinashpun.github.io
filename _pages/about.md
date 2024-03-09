@@ -8,13 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! Thank you for visiting my personal webpage. As a post-doctoral researcher at New Mexico State University, I bring over a decade of experience in programming, software development, and big-data analysis. My current focus revolves around the SeaQuest and [SpinQuest](https://spinquest.fnal.gov/) experiments at Fermi National Lab.
+Greetings! Thank you for visiting my personal webpage. As a lead modeler at Discover Financial Services,I bring over a decade of experience in programming, software development and modeling. My main focus is on developing and implementing sophisticated statistical models and algorithms to get insights from extensive datasets, with a special emphasis on identifying fraudulent behavior. By leveraging my skills and experience, I aim to enhance Discover's ability to protect its customers and mitigate risks associated with fraudulent behavior.
 
+Prior to my tenure at Discover, I pursued a Ph.D. in high-energy experimental physics at Ohio University. My doctoral research delved into the analysis of data from Brookhaven National Lab, aimed at comprehending the state of our universe microseconds post-Big Bang.
+
+Subsequently, I transitioned to a role as a postdoctoral researcher at New Mexico State University, where I actively participated in SpinQuest and SeaQuest nuclear experiments at Fermi National Lab. Within these experiments, I held a leadership position, overseeing the maintenance and coordinating the development of a shared analysis software framework.
+
+<!---
 Within the SpinQuest experiment, I hold a leadership position in maintaining and coordinating the development of a shared analysis software framework. This framework offers efficient and standardized methods for reconstructing, simulating, and analyzing data in the experiment. It has the potential to be utilized in various other high-energy physics experiments as well. The framework is built using **C++** (ROOT CERN). Additionally, I oversee the management of the **data pipeline**, ensuring the integrity of the data for analysis. Moreover, I have been involved in developing **Monte Carlo-based models** to gain insights into and analyze the detector response to elementary particles produced in the experiment.
 
 Furthermore, I am engaged in data analysis for the SeaQuest experiment at Fermilab. Specifically, my focus lies in studying the angular decay coefficients of J/Psi resulting from proton and Iron collisions. To extract the desired signal accurately and account for detector acceptance and resolution, I employ various data-driven methods such as **Data Unfolding** and **Gaussian Process Regression**.
 
-<!---
 Welcome to my personal webpage. I am a post-doctoral researcher at New Mexico State University with decade long experience of programming, software development and big-data analysis. Currently, I am working on multiple projects of the SeaQuest and the [SpinQuest](https://spinquest.fnal.gov/)  experiments at Fermi National Lab.
 
 
