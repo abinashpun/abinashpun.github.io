@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Greetings! Thank you for visiting my personal webpage. As a lead modeler at Discover Financial Services, I bring over a decade of experience in programming, software development and modeling. My main focus is on developing and implementing Machine Learning  models to identify fraudulent behavior. By leveraging my skills and experience, I aim to enhance Discover's ability to protect its customers and mitigate risks associated with fraudulent behavior.
+Thank you for visiting my personal webpage. As a **Lead Modeler** at Discover Financial Services, I bring over a decade of experience in programming, software development and modeling. My main focus is on developing and implementing Machine Learning  models to identify fraudulent behavior. By leveraging my skills and experience, I aim to enhance Discover's ability to protect its customers and mitigate risks associated with fraudulent behavior.
 
-Prior to my tenure at Discover, I pursued a Ph.D. in high-energy experimental nuclear physics at Ohio University. My doctoral research delved into the analysis of data from Brookhaven National Lab, aimed at comprehending the state of our universe microseconds post-Big Bang.
+Prior to my tenure at Discover, I pursued a **Ph.D.** in high-energy experimental nuclear physics at Ohio University. My doctoral research delved into the analysis of data from Brookhaven National Lab, aimed at comprehending the state of our universe microseconds post-Big Bang.
 
-Subsequently, I transitioned to a role as a postdoctoral researcher at New Mexico State University, where I actively participated in SpinQuest and SeaQuest nuclear experiments at Fermi National Lab. Within these experiments, I held a leadership position, overseeing the maintenance and coordinating the development of a shared analysis software framework.
+After that, I transitioned to a role as a **Post-Doctoral Researcher** at New Mexico State University, where I actively participated in SpinQuest and SeaQuest nuclear experiments at Fermi National Lab. Within these experiments, I held a leadership position, overseeing the maintenance and coordinating the development of a shared analysis software framework.
 
 <!---
 Within the SpinQuest experiment, I hold a leadership position in maintaining and coordinating the development of a shared analysis software framework. This framework offers efficient and standardized methods for reconstructing, simulating, and analyzing data in the experiment. It has the potential to be utilized in various other high-energy physics experiments as well. The framework is built using **C++** (ROOT CERN). Additionally, I oversee the management of the **data pipeline**, ensuring the integrity of the data for analysis. Moreover, I have been involved in developing **Monte Carlo-based models** to gain insights into and analyze the detector response to elementary particles produced in the experiment.
