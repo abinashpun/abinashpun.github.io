@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Thank you for visiting my personal webpage. As a **Lead Modeler** at Discover Financial Services, I bring over a decade of experience in programming, software development and modeling. My main focus is on developing and implementing Machine Learning  models to identify fraudulent behavior. By leveraging my skills and experience, I aim to enhance Discover's ability to protect its customers and mitigate risks associated with fraudulent behavior.
+Thank you for visiting my personal webpage. As a **Lead Modeler** at Discover Financial Services, I bring over a decade of experience in programming, software development and modeling. My primary responsibility involves developing models utilizing state-of-the-art Statistical and Machine Learning algorithms to identify fradulant behavior. By leveraging my skills and experience, I aim to enhance Discover's ability to protect its customers and mitigate risks associated with fraudulent activities.
 
 Prior to my tenure at Discover, I pursued a **Ph.D.** in high-energy experimental nuclear physics at Ohio University. My doctoral research delved into the analysis of data from Brookhaven National Lab, aimed at comprehending the state of our universe microseconds post-Big Bang.
 
