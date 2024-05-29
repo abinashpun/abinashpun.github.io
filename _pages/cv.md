@@ -81,6 +81,7 @@ Software and Computation Skills
 
 Trainings and Certifications
 ======
+* [Essentials of Project Management for the Nonproject Manager](https://abinashpun.github.io/certificates/project_managment_CEU_Certificate.pdf): AMA (American Management Association)
 * High Throughput Computing (HTC): OSG (Open Science Grid) Virtual School 2021
 * Computational and Data Science: CODAS-HEP 2022 (Princeton University)
 * IBM Data Science Professional Certificate (Coursera)
